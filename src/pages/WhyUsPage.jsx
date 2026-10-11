@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { usePageMeta } from '../hooks/usePageMeta'
 
+const COMPARE = ['Specialist R&D expertise', 'Full activity identification', 'Expert-led documentation', 'End-to-end claim management']
+
 export default function WhyUsPage() {
   usePageMeta("Why GrantReady", "Specialists beat generalists. Every single time.")
   return (
@@ -20,7 +22,22 @@ export default function WhyUsPage() {
   <div className="eyebrow">Specialist vs generalist</div>
   <h2>The difference in a table.</h2>
   
-  <div className="table-wrap"><table className="compare"><thead><tr><th>What matters</th><th className="us">GrantReady</th><th>Generalist</th></tr></thead><tbody><tr><td>Specialist R&amp;D expertise</td><td className="yes"><span className="mark" aria-label="Yes">✓</span></td><td className="no"><span className="mark" aria-label="No">✗</span></td></tr><tr><td>Full activity identification</td><td className="yes"><span className="mark" aria-label="Yes">✓</span></td><td className="no"><span className="mark" aria-label="No">✗</span></td></tr><tr><td>Expert-led documentation</td><td className="yes"><span className="mark" aria-label="Yes">✓</span></td><td className="no"><span className="mark" aria-label="No">✗</span></td></tr><tr><td>End-to-end claim management</td><td className="yes"><span className="mark" aria-label="Yes">✓</span></td><td className="no"><span className="mark" aria-label="No">✗</span></td></tr></tbody></table></div>
+  <div className="vs" role="table" aria-label="GrantReady compared with a generalist">
+  <div className="vs-col vs-labels" role="rowgroup">
+    <div className="vs-head" role="columnheader">What matters</div>
+    {COMPARE.map(f => <div className="vs-cell" role="rowheader" key={f}>{f}</div>)}
+  </div>
+  <div className="vs-col vs-us">
+    <span className="vs-badge">Recommended</span>
+    <div className="vs-head" role="columnheader">GrantReady</div>
+    {COMPARE.map(f => <div className="vs-cell" role="cell" key={f}><span className="mark yes" aria-label="Yes">✓</span></div>)}
+    <div className="vs-foot"><Link className="btn" to="/contact">Book free assessment</Link></div>
+  </div>
+  <div className="vs-col vs-them">
+    <div className="vs-head" role="columnheader">Generalist</div>
+    {COMPARE.map(f => <div className="vs-cell" role="cell" key={f}><span className="mark no" aria-label="No">✗</span></div>)}
+  </div>
+</div>
 </section><div className="final"><div><h2>Find out what a specialist review would change for you.</h2><p>Free, no-obligation 30-minute call. We review your current claim and give you a frank estimate of what we would do differently.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free assessment</Link><Link className="btn ghost" to="/eligibility-quiz">Check eligibility first</Link></div></div>
 
     </>

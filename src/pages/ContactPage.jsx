@@ -15,15 +15,12 @@ export default function ContactPage() {
 </header><section className="flush"><div className="contact-grid">
 <div className="stack">
   <div className="tile"><div className="eyebrow">Book a free assessment</div><h3>Book time with Lina</h3>
-    <div className="person"><img src="/assets/img/team/lina.jpg" alt="Lina Lamont" /><div><b>Lina Lamont</b><span>R&amp;D Tax Incentive &amp; EMDG Specialist · 18 years experience</span></div></div>
+    <div className="person"><img src="/assets/img/team/lina.jpg" alt="Lina Lamont" /><div><b>Lina Lamont</b><span>CEO · R&amp;D Tax Incentive &amp; EMDG specialist · 18 years experience</span></div></div>
     <p>Free · 30 minutes · No obligation. Lina will review your activities and give you a frank assessment of eligibility and potential benefit.</p>
     <CalendlyEmbed url="https://calendly.com/lina-grantready/15-minute-discussion" />
     <p className="book-alt">Prefer to talk first? <a href="tel:0398539853">03 9853 9853</a> · <a href="mailto:lina@grantready.com.au?subject=Free%20R%26D%20assessment">lina@grantready.com.au</a></p></div>
-  <div className="tile"><div className="eyebrow">GrantReady Pty Ltd</div>
-    <div className="lrow"><span>📞 Phone</span><b><a href="tel:0398539853">03 9853 9853</a></b></div>
-    <div className="lrow"><span>📍 Office</span><b>Melbourne, Victoria</b></div>
-    <div className="lrow"><span>🕘 Business hours</span><b>Mon-Fri 9:00 am - 5:30 pm AEST</b></div></div>
 </div>
+<div className="stack contact-right">
 <EnquiryForm className="tile contact-form" okClassName="form-ok" okText="Thanks. We'll be in touch within one business day.">
   <div className="eyebrow">Send a message</div>
   <div className="fields">
@@ -46,6 +43,11 @@ export default function ContactPage() {
   <button className="btn" type="submit">Send message →</button>
   <p className="small">We respond within one business day. Your details are not shared with third parties.</p>
 </EnquiryForm>
+  <div className="tile"><div className="eyebrow">GrantReady Pty Ltd</div>
+    <div className="lrow"><span>📞 Phone</span><b><a href="tel:0398539853">03 9853 9853</a></b></div>
+    <div className="lrow"><span>📍 Office</span><b>Melbourne, Victoria</b></div>
+    <div className="lrow"><span>🕘 Business hours</span><b>Mon-Fri 9:00 am - 5:30 pm AEST</b></div></div>
+</div>
 </div></section>
 
     </>
