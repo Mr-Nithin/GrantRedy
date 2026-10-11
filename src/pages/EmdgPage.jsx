@@ -1,16 +1,36 @@
 import { Link } from 'react-router-dom'
+import CaseVisual from '../components/CaseVisual'
+import { money } from '../utils/money'
 import { usePageMeta } from '../hooks/usePageMeta'
+
+const CRITERIA = [
+  { value: '<$20M', label: 'Annual income under $20 million' },
+  { value: '$20K+', label: 'Spent at least $20,000 on eligible export promotion' },
+  { value: 'AU', label: 'Products or services of Australian origin' },
+  { value: 'ABN', label: 'Have an Australian Business Number' },
+  { value: 'Non-gov', label: 'Not a government body or authority' },
+]
+const SPEND = [
+  ['Soliciting for business overseas', 80000],
+  ['Digital advertising (export markets)', 60000],
+  ['Overseas agents and reps', 40000],
+  ['IP registration (overseas)', 20000],
+]
+const SPEND_TOTAL = SPEND.reduce((t, [, a]) => t + a, 0)
 
 export default function EmdgPage() {
   usePageMeta("EMDG", "Recover up to 50% of your overseas marketing expenditure with the Export Market Development Grant.")
   return (
     <>
 
-<header className="page-hero">
+<header className="page-hero has-aside">
+<div className="hero-text">
   <div className="eyebrow">Export Market Development Grant</div>
   <h1>Recover up to 50% of your overseas marketing expenditure.</h1>
   <p className="lede">The Export Market Development Grant (EMDG) is an Australian Government program administered by Austrade that reimburses up to 50% of eligible export promotional expenditure for businesses with annual income under $20M.</p>
-  <div className="ctas"><Link className="btn" to="/contact">Get EMDG assessment →</Link><Link className="btn ghost" to="/services">View all services</Link></div><div className="kpis"><div><b>50%</b><span>Of eligible expenditure reimbursed</span></div><div><b>&lt;$20M</b><span>Maximum income to qualify</span></div><div><b>$20K</b><span>Minimum expenditure threshold</span></div><div><b>Tier 1-3</b><span>Grant tier based on minimum financial turnover</span></div></div>
+  <div className="ctas"><Link className="btn" to="/contact">Get EMDG assessment →</Link><Link className="btn ghost" to="/services">View all services</Link></div>
+</div>
+<div className="hero-aside"><CaseVisual tone="teal" icon="✈️" name={'Export Market Development Grant'} sector={'Administered by Austrade'} stats={[{ value: '50%', label: 'of eligible spend reimbursed' }, { value: '<$20M', label: 'maximum income to qualify' }]} chip={'$20K minimum spend · Tiers 1–3'} /></div>
 </header><section>
   <div className="eyebrow">Eligible expenditure</div>
   <h2>What qualifies for EMDG.</h2>
@@ -20,8 +40,33 @@ export default function EmdgPage() {
   <div className="eyebrow">Eligibility</div>
   <h2>Do you qualify for EMDG?</h2>
   
-  <div className="grid2"><div><ul className="checks"><li>Annual income under $20 million</li><li>Spent at least $20,000 on eligible export promotional activities</li><li>Products or services of Australian origin</li><li>Have an ABN</li><li>Not a government body or authority</li></ul></div>
-<div className="tile"><div className="eyebrow">Worked example</div><p>A software company with $8M annual income spends $200,000 on EMDG-eligible activities in a financial year:</p><div className="ledger"><div className="lrow"><span>Soliciting for business overseas</span><b>$80,000</b></div><div className="lrow"><span>Digital advertising (export markets)</span><b>$60,000</b></div><div className="lrow"><span>Overseas agents and reps</span><b>$40,000</b></div><div className="lrow"><span>IP registration (overseas)</span><b>$20,000</b></div><div className="lrow"><span>Total eligible spend</span><b>$200,000</b></div><div className="lrow total"><span>EMDG grant (50%)</span><b>$100,000</b></div></div></div></div>
+  <div className="emdg-elig">
+  <div>
+    <div className="elig-cards">
+      {CRITERIA.map(c => (
+        <div className="elig-card" key={c.label}><b>{c.value}</b><span>{c.label}</span></div>
+      ))}
+    </div>
+    <div className="elig-cta">
+      <p><strong>All five apply?</strong> You're likely eligible. We'll confirm it and estimate your grant, free.</p>
+      <Link className="btn" to="/contact">Book free EMDG assessment →</Link>
+    </div>
+  </div>
+  <div className="tile emdg-example">
+    <div className="eyebrow">Worked example</div>
+    <p>A software company with $8M annual income spends $200,000 on EMDG-eligible activities in a financial year:</p>
+    <ul className="spend-bars">
+      {SPEND.map(([label, amount]) => (
+        <li key={label}>
+          <div><span>{label}</span><b>{money(amount)}</b></div>
+          <i style={{ width: `${(amount / SPEND_TOTAL) * 100}%` }} />
+        </li>
+      ))}
+    </ul>
+    <div className="spend-total"><span>Total eligible spend</span><b>{money(SPEND_TOTAL)}</b></div>
+    <div className="grant-result"><span>EMDG grant (50%)</span><b>{money(SPEND_TOTAL / 2)}</b></div>
+  </div>
+</div>
 </section><div className="final"><div><h2>Find out if your export spend qualifies.</h2><p>Book a free EMDG eligibility assessment. We review your export marketing spend and tell you exactly what is recoverable.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free EMDG assessment →</Link></div></div>
 
     </>

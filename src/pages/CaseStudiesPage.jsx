@@ -7,11 +7,13 @@ export default function CaseStudiesPage() {
   return (
     <>
 
-<header className="page-hero">
+<header className="page-hero has-aside">
+<div className="hero-text">
   <div className="eyebrow">Case studies</div>
   <h1>Real businesses. Real results.</h1>
   <p className="lede">GrantReady has helped Australian businesses across every sector recover government funding they didn't know they were owed. Here are some of their stories.</p>
-  
+</div>
+<div className="hero-aside"><CaseVisual tone="violet" icon="📈" name={'Client results'} sector={'Across every sector'} stats={[{ value: '80%', label: 'energy cut at Lowbake' }, { value: '10+', label: 'years with SourceDynamix' }]} chip={'Manufacturing · Healthcare IT · Footwear'} /></div>
 </header><section className="flush"><div className="cases"><article className="case">
   <CaseVisual tone="blue" icon="🏭" name="Lowbake Australia" sector="Manufacturing · Spraybooths & ovens"
     stats={[{ value: '80%', label: 'cut in energy costs' }, { value: '70%', label: 'cut in bake time' }]}
@@ -33,7 +35,7 @@ export default function CaseStudiesPage() {
   <div><div className="meta"><span>Textile, Clothing &amp; Footwear</span></div><h3>Globally patented football boot technology, backed by the R&amp;D Tax Incentive</h3>
   <dl><div><dt>The situation</dt><dd>Developed on the back of an Australian invention, Concave Football Boots has refined a product that has been patented globally, aiming to be the most technologically advanced football boot in the world, offering players more power, better control, improved metatarsal protection and greater kicking accuracy.</dd></div><div><dt>What GrantReady did</dt><dd>With control and registration of the IP involved, Concave was in an ideal position to benefit from the R&amp;D Tax Incentive. GrantReady supported the company in accessing the incentive for its Australian research activities.</dd></div><div><dt>Outcome</dt><dd>Globally patented boot technology, positioned to benefit from the R&amp;D Tax Incentive</dd></div></dl>
   <p className="small"><b>Concave Football Boots</b></p></div>
-</article></div></section><div className="final"><div><h2>Could you be the next case study?</h2><p>Every business in this list was told by someone they might not qualify. A GrantReady assessment proved otherwise.</p></div><div className="ctas"><Link className="btn" to="/eligibility-quiz">Check your eligibility →</Link><Link className="btn ghost" to="/contact">Book an assessment</Link></div></div>
+</article></div></section><div className="final"><div><h2>Could you be the next case study?</h2><p>Each of these businesses started with a question about whether its work would qualify. A GrantReady assessment gave them the answer.</p></div><div className="ctas"><Link className="btn" to="/eligibility-quiz">Check your eligibility →</Link><Link className="btn ghost" to="/contact">Book an assessment</Link></div></div>
 
     </>
   )

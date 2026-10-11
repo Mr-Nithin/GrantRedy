@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { money } from '../utils/money'
 
-// Homepage quick estimate: under $20M = 43.5% refundable, $20M+ = 38.5% non-refundable (from)
+// Homepage quick estimate: under $20M = 43.5% refundable offset;
+// $20M+ = 8.5–16.5% net benefit above the tax rate, depending on R&D intensity
 export default function Estimator() {
   const [spend, setSpend] = useState(400000)
   const [small, setSmall] = useState(true)
@@ -18,8 +19,8 @@ export default function Estimator() {
         <button type="button" aria-pressed={!small} onClick={() => setSmall(false)}>$20M or more</button>
       </div>
       <div className="result">
-        <div className="n">{money(spend * (small ? 0.435 : 0.385))}</div>
-        <p>{small ? '43.5% refundable offset' : '38.5% non-refundable offset (from)'}</p>
+        <div className="n">{small ? money(spend * 0.435) : `${money(spend * 0.085)}–${money(spend * 0.165)}`}</div>
+        <p>{small ? '43.5% refundable offset' : '8.5–16.5% above tax rate, non-refundable'}</p>
       </div>
     </div>
   )

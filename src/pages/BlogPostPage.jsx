@@ -3,9 +3,10 @@ import { Link, useParams } from 'react-router-dom'
 import posts from '../data/posts.json'
 import { usePageMeta } from '../hooks/usePageMeta'
 import NotFoundPage from './NotFoundPage'
+import { CALENDLY_URL } from '../config'
 
 // Links inside articles that pointed at the old site's routes
-const LINKS = { '#rdti': '/rdti', '#blog-overseas': '/blog/overseas' }
+const LINKS = { '#rdti': '/rdti', '#blog-overseas': '/blog/overseas', '#book-lina': CALENDLY_URL }
 
 // Renders **bold** and [text](url) inside article text
 function Rich({ text }) {

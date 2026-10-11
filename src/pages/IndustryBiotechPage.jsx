@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import CaseVisual from '../components/CaseVisual'
 import { usePageMeta } from '../hooks/usePageMeta'
 
 export default function IndustryBiotechPage() {
@@ -6,11 +7,14 @@ export default function IndustryBiotechPage() {
   return (
     <>
 
-<header className="page-hero">
+<header className="page-hero has-aside">
+<div className="hero-text">
   <div className="eyebrow">Who we help: Biotech</div>
   <h1><span className="hero-ico">🧬</span>R&amp;D Tax Incentive for Biotech &amp; Life Sciences</h1>
   <p className="lede">Australia's biotech sector is among the most R&amp;D-intensive industries in the economy, and one of the sectors where R&amp;D Tax Incentive claims are most consistently undervalued. GrantReady has deep experience in biotech R&amp;D documentation and has helped life sciences companies recover significant amounts through both the R&amp;D Tax Incentive and the EMDG program.</p>
   <div className="ctas"><Link className="btn" to="/eligibility-quiz">Check your eligibility →</Link><Link className="btn ghost" to="/contact">Book free assessment</Link></div>
+</div>
+<div className="hero-aside"><CaseVisual tone="blue" icon="🧬" name={'Example: Biotech company'} sector={'Annual turnover $8M'} stats={[{ value: '$2.1M', label: 'eligible R&D spend' }, { value: '$913,500', label: 'R&D benefit' }]} chip={'Refundable, even in a loss-making position'} /></div>
 </header><section>
   
   
@@ -18,7 +22,7 @@ export default function IndustryBiotechPage() {
   <div className="grid3 align-start">
 <div className="tile"><div className="eyebrow">Eligible activities</div><h3>What activities typically qualify?</h3><ul className="checks"><li>Drug discovery and lead compound identification</li><li>Pre-clinical research and animal model studies</li><li>Clinical trial design, conduct, and analysis</li><li>Biologics and biosimilar development</li><li>Genomics, proteomics, and bioinformatics research</li><li>Synthetic biology and gene therapy experimentation</li><li>Process development for manufacturing scale-up</li><li>Toxicology studies and safety assessment</li></ul></div>
 <div className="tile"><div className="eyebrow">Eligible expenditure</div><h3>What costs can be claimed?</h3><ul className="checks"><li>Wages and salaries of R&amp;D staff (scientists, lab technicians)</li><li>Contract research organisation (CRO) costs</li><li>Laboratory consumables and reagents</li><li>Equipment and facility costs attributable to R&amp;D</li><li>Regulatory and clinical study costs</li><li>Intellectual property registration costs</li></ul></div>
-<div className="tile example"><div className="eyebrow">Example outcome</div><h3>Example: Biotech company</h3><div className="ledger"><div className="lrow"><span>Annual turnover</span><b>$8M</b></div><div className="lrow"><span>Eligible R&amp;D spend</span><b>$2.1M</b></div><div className="lrow total"><span>R&amp;D benefit</span><b>$913,500</b></div></div><p className="small">Refundable cash payment, even in a loss-making position (indicative)</p></div>
+<div className="tile example"><div className="eyebrow">Example outcome</div><h3>Example: Biotech company</h3><div className="ledger"><div className="lrow"><span>Annual turnover</span><b>$8M</b></div><div className="lrow"><span>Eligible R&amp;D spend</span><b>$2.1M</b></div><div className="lrow total"><span>R&amp;D benefit</span><b>$913,500</b></div></div><p className="small">Refundable cash payment, even in a loss-making position (indicative)</p><div className="example-cta"><b>What would your claim be worth?</b><Link className="btn" to="/benefit-calculator">Estimate your benefit →</Link></div></div>
 </div>
 </section><section>
   <div className="eyebrow">FAQs</div>

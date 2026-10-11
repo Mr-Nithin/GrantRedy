@@ -27,7 +27,7 @@ export default function HomePage() {
 </header>
 
 <div className="stats">
-  <div><b>1,500+</b><span>Grant programs for Australian business</span></div>
+  <div><b>3,000+</b><span>Grant programs for Australian business</span></div>
   <div><b>43.5%</b><span>Cash rebate on R&amp;D spend (up to)</span></div>
   <div><b>$2.9B</b><span>Federal grant program funding</span></div>
   <div><b>500+</b><span>Australian businesses helped</span></div>
@@ -85,7 +85,7 @@ export default function HomePage() {
   <p className="lede">If your business is solving technical problems with uncertain outcomes, the R&amp;D Tax Incentive almost certainly applies, regardless of your sector.</p>
   <div className="grid3">
     <Link className="ind" to="/industry-biotech"><div className="icon">🧬</div><h3>Biotech &amp; Life Sciences</h3><p>Drug development, clinical research, novel compounds, genomics, and diagnostics.</p></Link>
-    <Link className="ind" to="/industry-biomedical"><div className="icon">🦴</div><h3>Biomedical &amp; MedTech</h3><p>Medical devices, implants, diagnostics hardware, and biomedical engineering.</p></Link>
+    <Link className="ind" to="/industry-biomedical"><div className="icon">🏥</div><h3>Biomedical &amp; MedTech</h3><p>Medical devices, implants, diagnostics hardware, and biomedical engineering.</p></Link>
     <Link className="ind" to="/industry-agriculture"><div className="icon">🌾</div><h3>Agriculture &amp; AgTech</h3><p>Farm robotics, precision agriculture, crop science, and novel growing methods.</p></Link>
     <Link className="ind" to="/industry-it"><div className="icon">💻</div><h3>IT &amp; Software</h3><p>Novel platforms, algorithms, embedded systems, and technical development beyond standard practice.</p></Link>
     <Link className="ind" to="/industry-manufacturing"><div className="icon">🏭</div><h3>Manufacturing</h3><p>New materials, process innovation, production automation, and novel manufacturing methods.</p></Link>
@@ -96,7 +96,7 @@ export default function HomePage() {
 <section id="how">
   <div className="eyebrow">How it works</div>
   <h2>From free assessment to funded. Three steps.</h2>
-  <p className="lede">There's nothing more to getting your entitlements than engaging GrantReady, who manage the process end to end.</p>
+  <p className="lede">Getting what you're entitled to is simple: engage GrantReady and we manage the process end to end.</p>
   <div className="nocost"><b>$0</b><p><strong>No cost to find out.</strong> Your eligibility assessment and estimate are completely free, and you're under no obligation to proceed.</p><a className="btn" href="#book">Book free assessment</a></div>
   <div className="steps2">
     <div className="st"><div><span className="num">01</span><span className="free"><b>$0</b> No cost · No obligation</span><h3>Free eligibility assessment</h3><p>We assess your eligibility, identify eligible activities and expenditure, and give you a realistic estimate. At no charge.</p><div className="det">Expect a 30-minute call with a specialist.</div></div><div className="mock" aria-hidden="true"><div className="card">
@@ -112,7 +112,7 @@ export default function HomePage() {
   <div className="row"><b>Expenditure assessed</b><span className="ok">✓ Done</span></div>
   <div className="row"><b>AusIndustry registration</b><span className="ok">✓ Lodged</span></div>
   <div className="row"><b>ATO schedule to accountant</b><span>Awaiting approval</span></div></div></div></div>
-    <div className="st"><div><span className="num">03</span><h3>Government pays you</h3><p>Your refund arrives via tax return. Small companies in loss receive a direct cash refund. Larger companies reduce their tax payable.</p><div className="det">Most claims pay out within 30-60 days of lodgement.</div></div><div className="mock" aria-hidden="true"><div className="card">
+    <div className="st"><div><span className="num">03</span><h3>Government pays you</h3><p>Your refund arrives via tax return. Small companies in loss receive a direct cash refund. Larger companies reduce their tax payable.</p><div className="det">Most claims pay out within 30–60 days of lodgement.</div></div><div className="mock" aria-hidden="true"><div className="card">
   <h4>R&amp;D Tax Incentive refund</h4><div className="sub">Example only · refundable offset</div>
   <div className="row"><b>Eligible R&amp;D spend</b><span>$400,000</span></div>
   <div className="row"><b>Offset rate</b><span>43.5%</span></div>
@@ -161,7 +161,7 @@ export default function HomePage() {
     </article>
     <article className="case">
       <div className="rp" aria-hidden="true">
-        <div className="rp-top"><div className="rp-ico">🧬</div><div><b>Biomedical</b><span>Sydney · R&amp;D Tax Incentive</span></div></div>
+        <div className="rp-top"><div className="rp-ico">🏥</div><div><b>Biomedical</b><span>Sydney · R&amp;D Tax Incentive</span></div></div>
         <div className="ba"><div><small>Assumed ineligible</small><div className="was">$0</div></div><span className="arrow">→</span><div className="after"><small>With GrantReady</small><div className="now">$520,000</div></div></div>
         <span className="rp-chip">✓ Australian-owned IP qualified</span>
       </div>
@@ -184,10 +184,10 @@ export default function HomePage() {
     <h2>Not sure if your business qualifies?</h2>
     <p>Book your free 30-minute assessment. Speak directly with an R&amp;D tax specialist about your eligibility and what you could recover.</p>
     <EnquiryForm okClassName="ok" okText="Thanks. We'll be in touch within one business day.">
-      <div><label htmlFor="fname">Full name</label><input id="fname" required placeholder="Jane Smith" /></div>
-      <div><label htmlFor="femail">Work email</label><input id="femail" type="email" required placeholder="jane@company.com.au" /></div>
-      <div><label htmlFor="fturn">Annual turnover</label><select id="fturn"><option>Under $20M</option><option>$20M or more</option><option>Not sure</option></select></div>
-      <div><label htmlFor="fprog">Interested in</label><select id="fprog"><option>R&amp;D Tax Incentive</option><option>EMDG</option><option>Both</option><option>Other grants</option></select></div>
+      <div><label htmlFor="fname">Full name</label><input id="fname" name="name" required autoComplete="name" maxLength="80" placeholder="Jane Smith" /></div>
+      <div><label htmlFor="femail">Email</label><input id="femail" name="email" type="email" required autoComplete="email" maxLength="120" placeholder="jane@company.com.au" /></div>
+      <div><label htmlFor="fturn">Annual turnover</label><select id="fturn" name="turnover"><option>Under $20M</option><option>$20M or more</option><option>Not sure</option></select></div>
+      <div><label htmlFor="fprog">Interested in</label><select id="fprog" name="interest"><option>R&amp;D Tax Incentive</option><option>EMDG</option><option>Both</option><option>Other grants</option></select></div>
       <button className="go" type="submit">Book my free assessment</button>
     </EnquiryForm>
   </div>

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import CaseVisual from '../components/CaseVisual'
 import { usePageMeta } from '../hooks/usePageMeta'
 
 const COMPARE = ['Specialist R&D expertise', 'Full activity identification', 'Expert-led documentation', 'End-to-end claim management']
@@ -8,11 +9,13 @@ export default function WhyUsPage() {
   return (
     <>
 
-<header className="page-hero">
+<header className="page-hero has-aside">
+<div className="hero-text">
   <div className="eyebrow">Why GrantReady</div>
   <h1>Specialists beat generalists. Every single time.</h1>
   <p className="lede">Your accountant is great at what they do. R&amp;D Tax Incentive claims are not what they do. The difference between a generalist and a specialist claim is reliably worth tens of thousands of dollars.</p>
-  <div className="kpis"><div><b>+$40-$100K</b><span>Additional recovery vs self-lodged</span></div><div><b>20+</b><span>Years operating as R&amp;D specialists</span></div><div><b>12+</b><span>Sectors served across Australia</span></div></div>
+</div>
+<div className="hero-aside"><CaseVisual tone="violet" icon="🎯" name={'Specialist vs self-lodged'} sector={'What a specialist adds'} stats={[{ value: '+$40–$100K', label: 'additional recovery vs self-lodged' }, { value: '20+', label: 'years as R&D specialists' }]} chip={'12+ sectors across Australia'} /></div>
 </header><section>
   <div className="eyebrow">What sets us apart</div>
   <h2>Four reasons GrantReady clients recover more.</h2>
@@ -20,7 +23,7 @@ export default function WhyUsPage() {
   <div className="grid4"><div className="tile"><div className="icon">🎯</div><h3>Specialists, not generalists</h3><p>GrantReady does one thing: R&amp;D Tax Incentive and EMDG. One focus means deeper expertise, stronger claims, and better outcomes than a generalist.</p></div><div className="tile"><div className="icon">📅</div><h3>Operating since 2006</h3><p>Over 20 years navigating every legislative change, ATO review approach, and shift in the program's rules.</p></div><div className="tile"><div className="icon">📝</div><h3>Thorough documentation</h3><p>Our specialists conduct structured interviews with your technical team to capture every eligible activity. Stronger documentation means a stronger claim and a cleaner audit trail.</p></div><div className="tile"><div className="icon">✅</div><h3>End-to-end managed</h3><p>From eligibility through documentation, registration, lodgement, and ATO review management. You review and approve. We handle everything else.</p></div></div>
 </section><section>
   <div className="eyebrow">Specialist vs generalist</div>
-  <h2>The difference in a table.</h2>
+  <h2>The difference, side by side.</h2>
   
   <div className="vs" role="table" aria-label="GrantReady compared with a generalist">
   <div className="vs-col vs-labels" role="rowgroup">
