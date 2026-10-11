@@ -390,6 +390,10 @@ section.flush{border-top:0;padding-top:0}
 .seg-wrap button{flex:1 1 140px}
 .range-ends{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
 .calc-page .result .n{font-size:44px}
+.rate{display:grid;grid-template-columns:76px 1fr;gap:14px;align-items:baseline;padding:14px 0;border-top:1px solid var(--line)}
+.rate b{font:800 22px/1.2 var(--display);color:var(--accent)}
+.rate strong{display:block;color:var(--ink);font-size:15px;line-height:1.4}
+.rate span{display:block;font-size:13.5px;line-height:1.5;color:var(--muted);margin-top:2px}
 @media (hover:hover){
 .tile,.post,.member{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
 .link-tile:hover,.post:hover,.member:hover,.grid3>.tile:hover,.grid4>.tile:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 18px 36px -22px rgba(20,53,122,.45)}
