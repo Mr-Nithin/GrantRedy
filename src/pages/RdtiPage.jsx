@@ -49,24 +49,21 @@ const tabs = [
   <div className="as-when"><b>10 months</b><span>after your income year ends to register with AusIndustry. With a 30 June year-end, register by <strong>30 April</strong>.</span></div>
 </div>
 <div className="apply-phases">
-  <div className="phase">
-    <span className="phase-no" aria-hidden="true">01</span>
+  <div className="phase" data-no="01">
     <div className="phase-head"><span>Phase 1</span><b>Prepare</b><small>Assessment and review</small></div>
     <ol start="1">
       <li><span className="ap-num">1</span><div><h3>Engage GrantReady</h3><p>A free eligibility assessment and agreed scope. No obligation to proceed.</p><span className="tl-who">You + GrantReady</span></div></li>
       <li><span className="ap-num">2</span><div><h3>Activity and expenditure review</h3><p>We work with your technical team to find every eligible activity and cost, including ones others miss.</p><span className="tl-who">GrantReady + your team</span></div></li>
     </ol>
   </div>
-  <div className="phase">
-    <span className="phase-no" aria-hidden="true">02</span>
+  <div className="phase" data-no="02">
     <div className="phase-head"><span>Phase 2</span><b>Lodge</b><small>Registration and tax return</small></div>
     <ol start="3">
       <li><span className="ap-num">3</span><div><h3>AusIndustry registration</h3><p>We prepare and lodge your registration within 10 months of your income year ending.</p><span className="tl-who">GrantReady</span></div></li>
       <li><span className="ap-num">4</span><div><h3>ATO schedule</h3><p>We prepare the R&amp;D schedule; your accountant lodges it with your company tax return.</p><span className="tl-who">GrantReady → accountant</span></div></li>
     </ol>
   </div>
-  <div className="phase">
-    <span className="phase-no" aria-hidden="true">03</span>
+  <div className="phase" data-no="03">
     <div className="phase-head"><span>Phase 3</span><b>Receive</b><small>Refund and support</small></div>
     <ol start="5">
       <li><span className="ap-num">5</span><div><h3>Refund processing</h3><p>The offset reduces your tax payable. Eligible small companies receive any unused offset as cash.</p><span className="tl-who">ATO</span></div></li>

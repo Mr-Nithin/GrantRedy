@@ -38,7 +38,7 @@ export default function Quiz() {
       <div className="quiz tile">
         <div className="quiz-start">
           <div className="eyebrow">7 quick questions · about 3 minutes</div>
-          <h3>Check your eligibility before you call.</h3>
+          <h2 className="h3">Check your eligibility before you call.</h2>
           <p className="small">We'll ask about:</p>
           <ol className="quiz-topics">
             {TOPICS.map(t => <li key={t}>{t}</li>)}
@@ -54,7 +54,7 @@ export default function Quiz() {
       <div className="quiz tile"><div className="quiz-result">
         <span className="quiz-badge warn" aria-hidden="true">!</span>
         <div className="eyebrow">Your result</div>
-        <h3>You may not be eligible right now.</h3>
+        <h2 className="h3">You may not be eligible right now.</h2>
         <p>{fail}</p>
         <p>Every situation is different. A specialist can tell you whether an exception applies.</p>
         <div className="ctas quiz-actions"><Link className="btn" to="/contact">Talk to a specialist</Link>{restartBtn}</div>
@@ -67,7 +67,7 @@ export default function Quiz() {
       <div className="quiz tile"><div className="quiz-result ok">
         <span className="quiz-badge" aria-hidden="true">✓</span>
         <div className="eyebrow">Your result</div>
-        <h3>Good news: you may be eligible.</h3>
+        <h2 className="h3">Good news: you may be eligible.</h2>
         <p>Based on your answers, your business looks like a strong candidate for the R&amp;D Tax Incentive. Book a free assessment call and a specialist will confirm your eligibility and estimate your benefit.</p>
         <div className="ctas quiz-actions"><Link className="btn" to="/contact">Book free assessment<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/benefit-calculator">Estimate your benefit</Link></div>
       </div></div>
@@ -93,7 +93,7 @@ export default function Quiz() {
       <div className="quiz-progress"><span>Question {step + 1} of {QUESTIONS.length}</span><span>{Math.round(pct)}%</span></div>
       <div className="pbar"><i style={{ width: `${pct}%` }} /></div>
       <fieldset>
-        <legend><h3>{q.q}</h3></legend>
+        <legend><h2 className="h3">{q.q}</h2></legend>
         <p className="small">{q.hint}</p>
         <div className="quiz-opts">
           {q.opts.map(o => (

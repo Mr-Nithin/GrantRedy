@@ -28,7 +28,7 @@ export default function EligibilityQuizPage() {
     <li>Your answers aren't stored or sent anywhere</li>
   </ul>
   <div className="quiz-talk">
-    <div className="person"><img src="/assets/img/team/lina.jpg" alt="Lina Lamont" /><div><b>Rather talk it through?</b><span>Lina Lamont, CEO</span></div></div>
+    <div className="person"><img src="/assets/img/team/lina.webp" alt="Lina Lamont" /><div><b>Rather talk it through?</b><span>Lina Lamont, CEO</span></div></div>
     <Link className="btn" to="/contact#book">Book a quick call</Link>
     <p className="small"><a href="tel:0398539853">03 9853 9853</a> · <a href="mailto:lina@grantready.com.au">lina@grantready.com.au</a></p>
   </div>

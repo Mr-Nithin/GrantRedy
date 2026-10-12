@@ -6,6 +6,9 @@ import { usePageMeta } from '../hooks/usePageMeta'
 const latest = posts[0]
 const CATEGORIES = ['All', 'R&D Tax Incentive', 'Grants', 'Consulting', 'Business']
 
+// Card images come in a 640px copy (made by scripts/optimize-images.mjs) and the full size
+const thumbSet = src => `${src.replace(/\.webp$/, '-640.webp')} 640w, ${src} 1200w`
+
 export default function BlogPage() {
   usePageMeta('Blog', 'R&D Tax Incentive insights from the specialists.')
   const [cat, setCat] = useState('All')
@@ -21,10 +24,10 @@ export default function BlogPage() {
         </div>
         <div className="hero-aside optional">
           <Link className="latest" to={`/blog/${latest.slug}`}>
-            <img src={latest.image} alt="" />
+            <img src={latest.image} srcSet={thumbSet(latest.image)} sizes="(max-width: 900px) 100vw, 480px" alt="" fetchPriority="high" />
             <div>
               <span className="pill">Latest · {latest.date}</span>
-              <h3>{latest.title}</h3>
+              <h2 className="h3">{latest.title}</h2>
               <span className="read">Read article<span className="arr" aria-hidden="true" /></span>
             </div>
           </Link>
@@ -37,12 +40,12 @@ export default function BlogPage() {
           ))}
         </div>
         <div className="blog-grid">
-          {shown.map(p => (
+          {shown.map((p, i) => (
             <article className="post" key={p.slug}>
-              <img src={p.image} alt="" loading="lazy" />
+              <img src={p.image} srcSet={thumbSet(p.image)} sizes="(max-width: 700px) 100vw, 400px" alt="" {...(i === 0 ? { fetchPriority: 'high' } : { loading: 'lazy' })} />
               <div className="post-body">
                 <div className="post-meta"><span className="pill">{p.tag}</span><time>{p.date}</time></div>
-                <h3><Link to={`/blog/${p.slug}`}>{p.title}</Link></h3>
+                <h2><Link to={`/blog/${p.slug}`}>{p.title}</Link></h2>
                 <p>{p.excerpt}</p>
                 <span className="small">{p.readTime} · <span className="read">Read article<span className="arr" aria-hidden="true" /></span></span>
               </div>

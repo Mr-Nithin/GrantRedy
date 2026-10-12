@@ -73,8 +73,8 @@ Resources:
           ContentSecurityPolicy:
             ContentSecurityPolicy: >-
               default-src 'self'; script-src 'self' https://assets.calendly.com;
-              style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://assets.calendly.com;
-              font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;
+              style-src 'self' 'unsafe-inline' https://assets.calendly.com;
+              font-src 'self'; img-src 'self' data: https:;
               frame-src https://calendly.com; connect-src 'self'; form-action 'self';
               base-uri 'self'; object-src 'none'; frame-ancestors 'self'; upgrade-insecure-requests
             Override: true
@@ -83,6 +83,24 @@ Resources:
             - Header: Permissions-Policy
               Value: camera=(), microphone=(), geolocation=(), payment=()
               Override: true
+
+  # Every page is pre-rendered to <route>/index.html: serve /rdti from /rdti/index.html
+  CleanUrlsFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: !Sub '${AWS::StackName}-clean-urls'
+      AutoPublish: true
+      FunctionConfig:
+        Comment: Map page URLs to their pre-rendered index.html
+        Runtime: cloudfront-js-2.0
+      FunctionCode: |
+        function handler(event) {
+          var req = event.request;
+          var uri = req.uri;
+          if (uri.endsWith('/')) req.uri = uri + 'index.html';
+          else if (uri.lastIndexOf('.') < uri.lastIndexOf('/') + 1) req.uri = uri + '/index.html';
+          return req;
+        }
 
   Distribution:
     Type: AWS::CloudFront::Distribution
@@ -109,15 +127,18 @@ Resources:
           # AWS managed "CachingOptimized" policy
           CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6
           ResponseHeadersPolicyId: !Ref SecurityHeadersPolicy
-        # Single-page app: unknown paths load index.html and React renders the route
+          FunctionAssociations:
+            - EventType: viewer-request
+              FunctionARN: !GetAtt CleanUrlsFunction.FunctionMetadata.FunctionARN
+        # Unknown paths (S3 answers 403 for missing keys) get the site's 404 page
         CustomErrorResponses:
           - ErrorCode: 403
-            ResponseCode: 200
-            ResponsePagePath: /index.html
+            ResponseCode: 404
+            ResponsePagePath: /404.html
             ErrorCachingMinTTL: 10
           - ErrorCode: 404
-            ResponseCode: 200
-            ResponsePagePath: /index.html
+            ResponseCode: 404
+            ResponsePagePath: /404.html
             ErrorCachingMinTTL: 10
 
   # Only this CloudFront distribution may read the bucket

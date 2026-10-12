@@ -18,8 +18,8 @@ export default function ContactPage() {
 <div className="hero-aside optional"><CaseVisual tone="blue" icon="☎️" name={'Talk to a specialist'} sector={'Mon–Fri 10:00 am – 4:00 pm AEST'} stats={[{ value: 'Free', label: 'assessment call' }, { value: '1 day', label: 'response to messages' }]} chip={'03 9853 9853'} /></div>
 </header><section className="flush"><div className="contact-grid">
 <div className="stack">
-  <div className="tile" id="book"><div className="eyebrow">Book a free assessment</div><h3>Book time with Lina</h3>
-    <div className="person"><img src="/assets/img/team/lina.jpg" alt="Lina Lamont" /><div><b>Lina Lamont</b><span>CEO · R&amp;D Tax Incentive &amp; EMDG specialist · 18 years' experience</span></div></div>
+  <div className="tile" id="book"><div className="eyebrow">Book a free assessment</div><h2 className="h3">Book time with Lina</h2>
+    <div className="person"><img src="/assets/img/team/lina.webp" alt="Lina Lamont" /><div><b>Lina Lamont</b><span>CEO · R&amp;D Tax Incentive &amp; EMDG specialist · 18 years' experience</span></div></div>
     <p>A quick, free call with no obligation. Lina will tell you if you qualify and what you could claim.</p>
     <CalendlyEmbed url={CALENDLY_URL} />
     <p className="book-alt">Prefer to talk first? <a href="tel:0398539853">03 9853 9853</a> · <a href="mailto:lina@grantready.com.au?subject=Free%20R%26D%20assessment">lina@grantready.com.au</a></p></div>

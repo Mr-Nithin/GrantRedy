@@ -1,3 +1,4 @@
+import Logo from './Logo'
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
@@ -12,7 +13,7 @@ export default function Nav() {
 
   return (
     <nav id="nav" className={open ? 'open' : undefined}>
-      <Link className="logo" to="/"><img src="/assets/img/logo.gif" alt="GrantReady" /></Link>
+      <Link className="logo" to="/"><Logo /></Link>
       <button className="menu-btn" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} onClick={() => setOpen(o => !o)}>
         <svg className="m" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
         <svg className="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>

@@ -1,3 +1,4 @@
+import Logo from './Logo'
 import { Link } from 'react-router-dom'
 
 const columns = [
@@ -13,7 +14,7 @@ export default function Footer() {
       <div className="foot-inner">
         <div className="fgrid">
           <div className="fbrand">
-            <Link className="logo" to="/"><img src="/assets/img/logo.gif" alt="GrantReady" /></Link>
+            <Link className="logo" to="/"><Logo /></Link>
             <p>Australia's specialist R&amp;D Tax Incentive and government grants consultancy. Operating since 2006.</p>
             <ul className="fcontact">
               <li><a href="tel:0398539853">03 9853 9853</a></li>
@@ -24,11 +25,11 @@ export default function Footer() {
           </div>
           {columns.map(([title, links, sub]) => (
             <div className="fcol" key={title}>
-              <h4>{title}</h4>
+              <h2>{title}</h2>
               <ul>{links.map(([to, label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</ul>
               {sub && (
                 <>
-                  <h4 className="fsub">{sub[0]}</h4>
+                  <h2 className="fsub">{sub[0]}</h2>
                   <ul>{sub[1].map(([to, label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</ul>
                 </>
               )}

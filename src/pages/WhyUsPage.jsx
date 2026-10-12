@@ -25,20 +25,20 @@ export default function WhyUsPage() {
   <div className="eyebrow">Specialist vs generalist</div>
   <h2>The difference, side by side.</h2>
   
-  <div className="vs" role="table" aria-label="GrantReady compared with a generalist">
-  <div className="vs-col vs-labels" role="rowgroup">
-    <div className="vs-head" role="columnheader">What matters</div>
-    {COMPARE.map(f => <div className="vs-cell" role="rowheader" key={f}>{f}</div>)}
+  <div className="vs">
+  <div className="vs-col vs-labels">
+    <div className="vs-head">What matters</div>
+    {COMPARE.map(f => <div className="vs-cell" key={f}>{f}</div>)}
   </div>
   <div className="vs-col vs-us">
     <span className="vs-badge">Recommended</span>
-    <div className="vs-head" role="columnheader">GrantReady</div>
-    {COMPARE.map(f => <div className="vs-cell" role="cell" key={f}><span className="mark yes" aria-label="Yes">✓</span></div>)}
+    <div className="vs-head">GrantReady</div>
+    {COMPARE.map(f => <div className="vs-cell" key={f}><span className="mark yes" role="img" aria-label="Yes">✓</span></div>)}
     <div className="vs-foot"><Link className="btn" to="/contact">Book free assessment</Link></div>
   </div>
   <div className="vs-col vs-them">
-    <div className="vs-head" role="columnheader">Generalist</div>
-    {COMPARE.map(f => <div className="vs-cell" role="cell" key={f}><span className="mark no" aria-label="No">✗</span></div>)}
+    <div className="vs-head">Generalist</div>
+    {COMPARE.map(f => <div className="vs-cell" key={f}><span className="mark no" role="img" aria-label="No">✗</span></div>)}
   </div>
 </div>
 </section><div className="final"><div><h2>Find out what a specialist review would change for you.</h2><p>A quick, free, no-obligation call. We review your current claim and give you a frank estimate of what we would do differently.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free assessment</Link><Link className="btn ghost" to="/eligibility-quiz">Check eligibility first</Link></div></div>

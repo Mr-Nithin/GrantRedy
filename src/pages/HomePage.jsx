@@ -16,12 +16,12 @@ export default function HomePage() {
     <p>Most businesses doing <em>Research and Development</em> aren't claiming everything they're entitled to. Get back up to 43.5¢ per dollar of R&amp;D spend, plus 50% of overseas marketing costs via EMDG.</p>
     <div className="ctas"><Link className="btn" to="/eligibility-quiz">Check if you qualify<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/benefit-calculator">Calculate your benefit<span className="arr" aria-hidden="true" /></Link></div>
     <div className="team">
-      <div className="avatars"><img src="/assets/img/t1.jpg" alt="" /><img src="/assets/img/t2.jpg" alt="" /><img src="/assets/img/t3.jpg" alt="" /><img src="/assets/img/t4.jpg" alt="" /><img src="/assets/img/t5.jpg" alt="" /></div>
-      <p><b>Talk to a real specialist.</b><br />Free assessment call. No obligation.</p>
+      <div className="avatars"><img src="/assets/img/t1.webp" alt="" width="96" height="96" /><img src="/assets/img/t2.webp" alt="" width="96" height="96" /><img src="/assets/img/t3.webp" alt="" width="96" height="96" /><img src="/assets/img/t4.webp" alt="" width="96" height="96" /><img src="/assets/img/t5.webp" alt="" width="96" height="96" /></div>
+      <p><b>Talk to our <span className="gold">SuperStar</span>.</b><br />Free assessment call. No obligation.</p>
     </div>
   </div>
   <div className="visual">
-    <img src="/assets/img/hero.jpg" alt="GrantReady team meeting with a client" />
+    <img src="/assets/img/hero.webp" alt="GrantReady team meeting with a client" width="720" height="480" fetchPriority="high" />
     <Estimator />
   </div>
 </header>
@@ -191,7 +191,7 @@ export default function HomePage() {
       <button className="go" type="submit">Book my free assessment</button>
     </EnquiryForm>
   </div>
-  <div className="pic" role="img" aria-label="GrantReady team"></div>
+  <div className="pic"><img src="/assets/img/team.webp" alt="GrantReady team" loading="lazy" /></div>
 </div>
 
     </>

@@ -140,12 +140,20 @@ the bucket is kept (`DeletionPolicy: Retain`) so site files aren't lost.
 
 ```
 npm run build
-aws s3 sync dist s3://<bucket-name> --exclude index.html
-aws s3 cp dist/index.html s3://<bucket-name>/index.html --cache-control no-cache
+# Hashed bundles and fonts never change: cache them for a year
+aws s3 sync dist/assets s3://<bucket-name>/assets --exclude "img/*" --cache-control "public, max-age=31536000, immutable"
+# Images: one week
+aws s3 sync dist/assets/img s3://<bucket-name>/assets/img --cache-control "public, max-age=604800"
+# Pages and site files: always revalidate so updates show straight away
+aws s3 sync dist s3://<bucket-name> --exclude "assets/*" --cache-control "no-cache"
 aws cloudfront create-invalidation --distribution-id <distribution-id> --paths "/*"
 ```
 
-Because the site uses clean URLs (`/rdti`, `/blog/<slug>`), CloudFront must
-serve `index.html` for paths that don't match a file. The CloudFormation
-template sets this up; on a distribution created by hand, add custom error
-responses mapping 403 and 404 to `/index.html` with response code 200.
+`npm run build` pre-renders every page to static HTML (`dist/<route>/index.html`,
+plus `404.html`) and writes `robots.txt`, `sitemap.xml`, `llms.txt` and
+`.well-known/ai-catalog.json`. Set `VITE_SITE_URL` to the public address (for
+example a custom domain) so canonical links and the sitemap point at it.
+
+The CloudFormation template adds a CloudFront Function that serves `/rdti`
+from `/rdti/index.html`, and returns `404.html` with status 404 for unknown
+paths. On a distribution created by hand, add the same viewer-request function.

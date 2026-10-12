@@ -9,7 +9,7 @@ export default function Estimator() {
 
   return (
     <div className="calc" id="calc" aria-label="Benefit calculator">
-      <h3>Estimate your benefit</h3>
+      <h2>Estimate your benefit</h2>
       <small>Indicative only.</small>
       <label htmlFor="spend">Eligible R&amp;D spend <span className="val">{money(spend)}</span></label>
       <input id="spend" type="range" min="20000" max="2000000" step="10000" value={spend} onChange={e => setSpend(+e.target.value)} />

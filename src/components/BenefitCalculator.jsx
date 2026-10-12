@@ -36,7 +36,7 @@ export default function BenefitCalculator() {
   return (
     <>
     <div className="tile calc-page">
-      <h3>Your details</h3>
+      <h2 className="h3">Your details</h2>
       <label>Annual company turnover</label>
       <div className="seg seg-wrap">
         {TURNOVER.map(([v, label]) => (

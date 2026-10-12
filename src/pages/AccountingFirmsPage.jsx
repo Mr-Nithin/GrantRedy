@@ -22,7 +22,7 @@ export default function AccountingFirmsPage() {
   <p className="lede">GrantReady is a specialist R&amp;D Tax Incentive consultancy. We do one thing. That means your clients get a better R&amp;D claim outcome, and you keep every other part of the relationship.</p>
   <div className="ctas"><Link className="btn" to="/contact">Talk to us about a referral<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/why-us">Why GrantReady</Link></div>
 </div>
-<div className="hero-aside"><div className="note-box"><h3>The referral promise</h3><ul className="checks"><li>We will never offer your client tax, audit, or advisory services</li><li>We will never approach your client about anything outside R&amp;D/EMDG</li><li>We will never recruit your staff or approach your other clients</li><li>We keep you informed throughout the engagement</li><li>Your client relationship remains yours, always</li></ul></div></div>
+<div className="hero-aside"><div className="note-box"><h2 className="h3">The referral promise</h2><ul className="checks"><li>We will never offer your client tax, audit, or advisory services</li><li>We will never approach your client about anything outside R&amp;D/EMDG</li><li>We will never recruit your staff or approach your other clients</li><li>We keep you informed throughout the engagement</li><li>Your client relationship remains yours, always</li></ul></div></div>
 </header><section>
   <div className="eyebrow">Why refer to GrantReady</div>
   <h2>A specialist referral that makes you look good.</h2>
