@@ -979,7 +979,7 @@ section+.final{margin-top:40px}
 h2.h3,section h2.h3{font-size:1.17em;margin:0}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 /* Below-the-fold sections skip layout and paint until they near the viewport (faster start-up) */
-main>*+*{content-visibility:auto;contain-intrinsic-size:auto 700px}
+main>*+*{content-visibility:auto;contain-intrinsic-size:auto 700px;overflow-clip-margin:32px}
 /* Same gold as the hero badge stars */
 .gold{color:var(--gold)}
 /* Desktop: a wider, shorter hero photo so the estimator fits on a laptop screen */
