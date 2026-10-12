@@ -41,7 +41,7 @@ export default function WhyUsPage() {
     {COMPARE.map(f => <div className="vs-cell" role="cell" key={f}><span className="mark no" aria-label="No">✗</span></div>)}
   </div>
 </div>
-</section><div className="final"><div><h2>Find out what a specialist review would change for you.</h2><p>Free, no-obligation 30-minute call. We review your current claim and give you a frank estimate of what we would do differently.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free assessment</Link><Link className="btn ghost" to="/eligibility-quiz">Check eligibility first</Link></div></div>
+</section><div className="final"><div><h2>Find out what a specialist review would change for you.</h2><p>A quick, free, no-obligation call. We review your current claim and give you a frank estimate of what we would do differently.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free assessment</Link><Link className="btn ghost" to="/eligibility-quiz">Check eligibility first</Link></div></div>
 
     </>
   )

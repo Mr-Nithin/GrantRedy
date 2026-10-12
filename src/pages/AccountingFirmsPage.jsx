@@ -20,7 +20,7 @@ export default function AccountingFirmsPage() {
   <div className="eyebrow">For accounting firms</div>
   <h1>Refer your clients to an R&amp;D specialist who will never touch your tax, audit, or advisory work.</h1>
   <p className="lede">GrantReady is a specialist R&amp;D Tax Incentive consultancy. We do one thing. That means your clients get a better R&amp;D claim outcome, and you keep every other part of the relationship.</p>
-  <div className="ctas"><Link className="btn" to="/contact">Talk to us about a referral →</Link><Link className="btn ghost" to="/why-us">Why GrantReady</Link></div>
+  <div className="ctas"><Link className="btn" to="/contact">Talk to us about a referral<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/why-us">Why GrantReady</Link></div>
 </div>
 <div className="hero-aside"><div className="note-box"><h3>The referral promise</h3><ul className="checks"><li>We will never offer your client tax, audit, or advisory services</li><li>We will never approach your client about anything outside R&amp;D/EMDG</li><li>We will never recruit your staff or approach your other clients</li><li>We keep you informed throughout the engagement</li><li>Your client relationship remains yours, always</li></ul></div></div>
 </header><section>
@@ -48,7 +48,6 @@ export default function AccountingFirmsPage() {
         <li>ATO R&amp;D schedule prepared for <b>your firm</b> to lodge</li>
         <li>ATO and AusIndustry review management</li>
       </ul>
-      <Link className="btn scope-cta" to="/contact">Talk to us about a referral →</Link>
     </div>
     <div className="scope-dont">
       <div className="eyebrow">GrantReady will never</div>
@@ -137,7 +136,7 @@ export default function AccountingFirmsPage() {
   <h2>Questions from accounting firms.</h2>
   
   <div className="faq"><details><summary>Will GrantReady compete with us for the client's tax work?</summary><p>No. GrantReady is not a general accounting or tax practice. We do not hold an accounting firm licence and we do not offer accounting, audit, or tax compliance services. Our Registered Tax Agent status covers R&amp;D Tax Incentive advice only: we prepare the ATO R&amp;D schedule, but your firm lodges the client's tax return.</p></details><details><summary>How does GrantReady charge?</summary><p>GrantReady charges a commencement fee plus a performance component tied to the outcome. There is no fee for the initial eligibility assessment. We can provide you with our full fee schedule on request.</p></details><details><summary>Can we be involved in the process?</summary><p>Yes. Many referring firms choose to be kept across the engagement. We can copy you on key communications and provide a summary of the final claim outcome. The level of involvement is up to you and your client.</p></details><details><summary>What do you need from us to assess a client?</summary><p>A basic introduction is enough to start. For the eligibility assessment, we need to speak with someone at the client business who understands what they are building or developing. We do not need financial statements at the assessment stage.</p></details><details><summary>What if my client has already been lodging their own R&amp;D claim?</summary><p>This is one of our most common referral scenarios. Self-lodging clients typically miss 20–40% of eligible activity. GrantReady reviews the prior claim, identifies what was missed, and prepares an improved claim. The uplift is often significant. Ask us about our Health Check.</p></details></div>
-</section><div className="final"><div><h2>Talk to us about referring a client.</h2><p>A 10-minute call is enough for us to tell you whether a referral makes sense. No paperwork. No obligation. Just a frank conversation between specialists.</p></div><div className="ctas"><Link className="btn" to="/contact">Get in touch →</Link><a className="btn ghost" href="tel:0398539853">Call 03 9853 9853</a></div></div>
+</section><div className="final"><div><h2>Talk to us about referring a client.</h2><p>A 10-minute call is enough for us to tell you whether a referral makes sense. No paperwork. No obligation. Just a frank conversation between specialists.</p></div><div className="ctas"><Link className="btn" to="/contact">Get in touch<span className="arr" aria-hidden="true" /></Link><a className="btn ghost" href="tel:0398539853">Call 03 9853 9853</a></div></div>
 
     </>
   )

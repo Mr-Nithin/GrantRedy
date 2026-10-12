@@ -1,0 +1,108 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  GrantReady form backend: a Lambda function behind a public Function URL that
+  validates website enquiries and emails them through SendGrid. The SendGrid API
+  key lives in SSM Parameter Store as a SecureString.
+
+Parameters:
+  CodeBucket:
+    Type: String
+    Description: Private S3 bucket holding the packaged function code.
+  CodeKey:
+    Type: String
+    Description: S3 key of the function zip (changes on every deploy).
+  AllowedOrigins:
+    Type: CommaDelimitedList
+    Description: Website origins allowed to post forms, e.g. https://d3hkz6lbhj1jks.cloudfront.net
+  ToEmails:
+    Type: String
+    Description: Comma-separated addresses that receive enquiries.
+  FromEmail:
+    Type: String
+    Description: Sender address verified in SendGrid.
+  SendGridKeyParam:
+    Type: String
+    Default: /grantready/sendgrid-api-key
+    Description: Name of the SSM SecureString parameter holding the SendGrid API key.
+
+Resources:
+  FunctionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: { Service: lambda.amazonaws.com }
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: read-sendgrid-key
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: ssm:GetParameter
+                Resource: !Sub 'arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter${SendGridKeyParam}'
+
+  FunctionLogs:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${AWS::StackName}'
+      RetentionInDays: 30
+
+  Function:
+    Type: AWS::Lambda::Function
+    DependsOn: FunctionLogs
+    Properties:
+      FunctionName: !Ref AWS::StackName
+      Description: GrantReady website form handler
+      Runtime: nodejs22.x
+      Handler: index.handler
+      Architectures: [arm64]
+      MemorySize: 128
+      Timeout: 10
+      Role: !GetAtt FunctionRole.Arn
+      Code:
+        S3Bucket: !Ref CodeBucket
+        S3Key: !Ref CodeKey
+      Environment:
+        Variables:
+          SENDGRID_KEY_PARAM: !Ref SendGridKeyParam
+          TO_EMAILS: !Ref ToEmails
+          FROM_EMAIL: !Ref FromEmail
+          ALLOWED_ORIGINS: !Join [',', !Ref AllowedOrigins]
+
+  FunctionUrl:
+    Type: AWS::Lambda::Url
+    Properties:
+      TargetFunctionArn: !Ref Function
+      AuthType: NONE
+      Cors:
+        AllowOrigins: !Ref AllowedOrigins
+        AllowMethods: [POST]
+        AllowHeaders: [content-type]
+        MaxAge: 3600
+
+  # Public access to the URL (the function itself checks Origin and validates input)
+  FunctionUrlPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref Function
+      Action: lambda:InvokeFunctionUrl
+      Principal: '*'
+      FunctionUrlAuthType: NONE
+
+  FunctionInvokePermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref Function
+      Action: lambda:InvokeFunction
+      Principal: '*'
+      InvokedViaFunctionUrl: true
+
+Outputs:
+  FormEndpoint:
+    Description: Set as VITE_FORM_ENDPOINT when building the site
+    Value: !GetAtt FunctionUrl.FunctionUrl

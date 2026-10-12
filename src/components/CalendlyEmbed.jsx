@@ -23,7 +23,7 @@ export default function CalendlyEmbed({ url, height = 660 }) {
     <div className="calendly">
       <div className="calendly-inline-widget" data-url={src} style={{ minWidth: 280, height }} />
       <p className="small">
-        Calendar not loading? <a href={url} target="_blank" rel="noopener">Book on Calendly →</a>
+        Calendar not loading? <a href={url} target="_blank" rel="noopener">Book on Calendly<span className="arr" aria-hidden="true" /></a>
       </p>
     </div>
   )

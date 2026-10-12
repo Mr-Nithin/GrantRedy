@@ -14,10 +14,10 @@ export default function HomePage() {
     <div className="badge"><span className="star" aria-hidden="true">★★★</span> Australia's #1 R&amp;D Tax Specialist · Since 2006</div>
     <h1>We build defensible claims.</h1>
     <p>Most businesses doing <em>Research and Development</em> aren't claiming everything they're entitled to. Get back up to 43.5¢ per dollar of R&amp;D spend, plus 50% of overseas marketing costs via EMDG.</p>
-    <div className="ctas"><a className="btn" href="#book">Check if you qualify →</a><a className="btn ghost" href="#calc">Calculate your benefit →</a></div>
+    <div className="ctas"><Link className="btn" to="/eligibility-quiz">Check if you qualify<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/benefit-calculator">Calculate your benefit<span className="arr" aria-hidden="true" /></Link></div>
     <div className="team">
       <div className="avatars"><img src="/assets/img/t1.jpg" alt="" /><img src="/assets/img/t2.jpg" alt="" /><img src="/assets/img/t3.jpg" alt="" /><img src="/assets/img/t4.jpg" alt="" /><img src="/assets/img/t5.jpg" alt="" /></div>
-      <p><b>Talk to a real specialist.</b><br />Free 30-minute assessment. No obligation.</p>
+      <p><b>Talk to a real specialist.</b><br />Free assessment call. No obligation.</p>
     </div>
   </div>
   <div className="visual">
@@ -42,7 +42,7 @@ export default function HomePage() {
     <div className="chap"><span className="yr">2006</span><h3>One focus from day one</h3><p>GrantReady was founded to do one thing well: help Australian innovators claim the R&amp;D Tax Incentive properly.</p></div>
     <div className="chap"><span className="yr">20 yrs</span><h3>Through every rule change</h3><p>We've worked through every legislative change, every shift in ATO review approach, and every update to the program's rules.</p></div>
     <div className="chap"><span className="yr">500+</span><h3>Businesses helped</h3><p>From biotech labs to software teams and farms, we've helped hundreds of companies recover what they were owed, added EMDG for exporters, and built GrantGuru so anyone can find the right grant.</p></div>
-    <div className="chap now"><span className="yr">Today</span><h3>Your claim is next</h3><p>Australia's #1 R&amp;D tax specialist. Start with a free 30-minute assessment and find out what your business could recover.</p></div>
+    <div className="chap now"><span className="yr">Today</span><h3>Your claim is next</h3><p>Australia's #1 R&amp;D tax specialist. Start with a free assessment call and find out what your business could recover.</p></div>
   </div>
 </section>
 
@@ -99,10 +99,10 @@ export default function HomePage() {
   <p className="lede">Getting what you're entitled to is simple: engage GrantReady and we manage the process end to end.</p>
   <div className="nocost"><b>$0</b><p><strong>No cost to find out.</strong> Your eligibility assessment and estimate are completely free, and you're under no obligation to proceed.</p><a className="btn" href="#book">Book free assessment</a></div>
   <div className="steps2">
-    <div className="st"><div><span className="num">01</span><span className="free"><b>$0</b> No cost · No obligation</span><h3>Free eligibility assessment</h3><p>We assess your eligibility, identify eligible activities and expenditure, and give you a realistic estimate. At no charge.</p><div className="det">Expect a 30-minute call with a specialist.</div></div><div className="mock" aria-hidden="true"><div className="card">
-  <h4>Free eligibility assessment</h4><div className="sub">30 minutes with an R&amp;D tax specialist</div>
+    <div className="st"><div><span className="num">01</span><span className="free"><b>$0</b> No cost · No obligation</span><h3>Free eligibility assessment</h3><p>We assess your eligibility, identify eligible activities and expenditure, and give you a realistic estimate. At no charge.</p><div className="det">Expect a quick call with a specialist.</div></div><div className="mock" aria-hidden="true"><div className="card">
+  <h4>Free eligibility assessment</h4><div className="sub">A quick call with an R&amp;D tax specialist</div>
   <div className="price"><b>$0</b><s>no fee</s><span className="ok">No obligation</span></div>
-  <div className="slots"><span>Mon 10:00</span><span className="on">Tue 2:30</span><span>Wed 9:00</span></div>
+  <div className="slots"><span>Mon 10:00</span><span className="on">Tue 2:30</span><span>Wed 11:00</span></div>
   <span className="cta">Book my free call</span></div></div></div>
     <div className="st"><div><span className="num">02</span><h3>We build your claim</h3><p>GrantReady collects documentation, builds the technical narrative, assesses eligible expenditure, registers with AusIndustry, and provides the ATO schedule for your accountant to lodge with your tax return.</p><div className="det">You review and approve before anything is submitted.</div></div><div className="mock" aria-hidden="true"><div className="card">
   <h4>Your R&amp;D claim</h4><div className="sub">Prepared by GrantReady · ready for your review</div>
@@ -182,7 +182,7 @@ export default function HomePage() {
 <div className="cta2" id="book">
   <div className="form">
     <h2>Not sure if your business qualifies?</h2>
-    <p>Book your free 30-minute assessment. Speak directly with an R&amp;D tax specialist about your eligibility and what you could recover.</p>
+    <p>Book your free assessment call. Speak directly with an R&amp;D tax specialist about your eligibility and what you could recover.</p>
     <EnquiryForm okClassName="ok" okText="Thanks. We'll be in touch within one business day.">
       <div><label htmlFor="fname">Full name</label><input id="fname" name="name" required autoComplete="name" maxLength="80" placeholder="Jane Smith" /></div>
       <div><label htmlFor="femail">Email</label><input id="femail" name="email" type="email" required autoComplete="email" maxLength="120" placeholder="jane@company.com.au" /></div>

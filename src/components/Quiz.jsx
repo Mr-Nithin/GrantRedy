@@ -21,6 +21,9 @@ const QUESTIONS = [
     bad: { No: 'The program requires documentation to be kept to be eligible. You might like to come back to this questionnaire once you have eligible documentation.' } },
 ]
 
+const TOPICS = ['Your business structure', 'Your annual R&D spend', 'Where the R&D happens', 'Its scientific or engineering basis',
+  "What you're creating or improving", 'Technical uncertainty and risk', 'Your records and documentation']
+
 export default function Quiz() {
   // step: -1 = not started, 0..n-1 = question, n = eligible result
   const [step, setStep] = useState(-1)
@@ -31,17 +34,30 @@ export default function Quiz() {
   const restartBtn = <button className="btn ghost" onClick={restart}>↺ Start again</button>
 
   if (step === -1) {
-    return <div className="quiz tile"><div className="quiz-start"><button className="btn" onClick={restart}>Start the questionnaire →</button></div></div>
+    return (
+      <div className="quiz tile">
+        <div className="quiz-start">
+          <div className="eyebrow">7 quick questions · about 3 minutes</div>
+          <h3>Check your eligibility before you call.</h3>
+          <p className="small">We'll ask about:</p>
+          <ol className="quiz-topics">
+            {TOPICS.map(t => <li key={t}>{t}</li>)}
+          </ol>
+        </div>
+        <div className="ctas quiz-actions"><button className="btn" onClick={restart}>Start the questionnaire<span className="arr" aria-hidden="true" /></button></div>
+      </div>
+    )
   }
 
   if (fail) {
     return (
       <div className="quiz tile"><div className="quiz-result">
+        <span className="quiz-badge warn" aria-hidden="true">!</span>
         <div className="eyebrow">Your result</div>
         <h3>You may not be eligible right now.</h3>
         <p>{fail}</p>
         <p>Every situation is different. A specialist can tell you whether an exception applies.</p>
-        <div className="ctas"><Link className="btn" to="/contact">Talk to a specialist</Link>{restartBtn}</div>
+        <div className="ctas quiz-actions"><Link className="btn" to="/contact">Talk to a specialist</Link>{restartBtn}</div>
       </div></div>
     )
   }
@@ -49,10 +65,11 @@ export default function Quiz() {
   if (step >= QUESTIONS.length) {
     return (
       <div className="quiz tile"><div className="quiz-result ok">
+        <span className="quiz-badge" aria-hidden="true">✓</span>
         <div className="eyebrow">Your result</div>
         <h3>Good news: you may be eligible.</h3>
-        <p>Based on your answers, your business looks like a strong candidate for the R&amp;D Tax Incentive. Book a free 30-minute assessment and a specialist will confirm your eligibility and estimate your benefit.</p>
-        <div className="ctas"><Link className="btn" to="/contact">Book free assessment →</Link><Link className="btn ghost" to="/benefit-calculator">Estimate your benefit</Link></div>
+        <p>Based on your answers, your business looks like a strong candidate for the R&amp;D Tax Incentive. Book a free assessment call and a specialist will confirm your eligibility and estimate your benefit.</p>
+        <div className="ctas quiz-actions"><Link className="btn" to="/contact">Book free assessment<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/benefit-calculator">Estimate your benefit</Link></div>
       </div></div>
     )
   }
@@ -86,7 +103,7 @@ export default function Quiz() {
           ))}
         </div>
       </fieldset>
-      <div className="ctas"><button className="btn" disabled={!picked.length} onClick={next}>Continue →</button>{step > 0 && restartBtn}</div>
+      <div className="ctas quiz-actions"><button className="btn" disabled={!picked.length} onClick={next}>Continue<span className="arr" aria-hidden="true" /></button>{step > 0 && restartBtn}</div>
     </div>
   )
 }

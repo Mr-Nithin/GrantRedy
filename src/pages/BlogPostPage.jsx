@@ -3,10 +3,9 @@ import { Link, useParams } from 'react-router-dom'
 import posts from '../data/posts.json'
 import { usePageMeta } from '../hooks/usePageMeta'
 import NotFoundPage from './NotFoundPage'
-import { CALENDLY_URL } from '../config'
 
 // Links inside articles that pointed at the old site's routes
-const LINKS = { '#rdti': '/rdti', '#blog-overseas': '/blog/overseas', '#book-lina': CALENDLY_URL }
+const LINKS = { '#rdti': '/rdti', '#blog-overseas': '/blog/overseas', '#book-lina': '/contact#book' }
 
 // Renders **bold** and [text](url) inside article text
 function Rich({ text }) {
@@ -47,7 +46,7 @@ export default function BlogPostPage() {
   return (
     <>
       <article className="article">
-        <Link className="back" to="/blog">← All articles</Link>
+        <Link className="back" to="/blog"><span className="arr left" aria-hidden="true" />All articles</Link>
         <div className="post-meta"><span className="pill">{post.tag}</span><time>{post.date}</time><span>{post.readTime}</span></div>
         <h1>{post.title}</h1>
         <img className="article-img" src={post.image} alt="" />
@@ -55,12 +54,12 @@ export default function BlogPostPage() {
           {post.blocks.map((b, j) => <Block key={j} block={b} />)}
         </div>
         <nav className="post-nav" aria-label="More articles">
-          {newer ? <Link to={`/blog/${newer.slug}`}><small>← Newer</small>{newer.title}</Link> : <span />}
-          {older ? <Link className="next" to={`/blog/${older.slug}`}><small>Older →</small>{older.title}</Link> : <span />}
+          {newer ? <Link to={`/blog/${newer.slug}`}><small><span className="arr left" aria-hidden="true" />Newer</small>{newer.title}</Link> : <span />}
+          {older ? <Link className="next" to={`/blog/${older.slug}`}><small>Older<span className="arr" aria-hidden="true" /></small>{older.title}</Link> : <span />}
         </nav>
       </article>
       <div className="final">
-        <div><h2>Talk to a specialist about your claim.</h2><p>Free 30-minute eligibility assessment with no obligation.</p></div>
+        <div><h2>Talk to a specialist about your claim.</h2><p>Free, no-obligation eligibility call.</p></div>
         <div className="ctas"><Link className="btn" to="/contact">Book free assessment</Link><Link className="btn ghost" to="/eligibility-quiz">Take the quiz</Link></div>
       </div>
     </>

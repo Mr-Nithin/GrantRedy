@@ -14,11 +14,11 @@
    },
    {
     "type": "p",
-    "text": "At GrantReady, our team has expertise in navigating these pathways, helping you maximise your funding opportunities while you continue to innovate."
+    "text": "At GrantReady, our team knows these pathways well and can help you maximise your funding while you continue to innovate."
    },
    {
     "type": "p",
-    "text": "If you haven't already, it's worth starting with the fundamentals of [R&D Tax Incentive eligibility](#rdti), the turnover, spend and activity tests every claim needs to meet first. This article covers what's different when your R&D involves clinical trials or work done outside Australia."
+    "text": "If you haven't already, start with the fundamentals of [R&D Tax Incentive eligibility](#rdti): the turnover, spend and activity tests every claim must meet. This article covers what's different when your R&D involves clinical trials or work done outside Australia."
    },
    {
     "type": "h",
@@ -26,7 +26,7 @@
    },
    {
     "type": "p",
-    "text": "Clinical trials may be eligible under the R&D Tax Incentive, subject to the conditions set out in the Industry Research and Development (Clinical Trials) Determination 2022. Trials conducted for the purpose of developing an unapproved therapeutic good can be eligible across the following stages of development, including:"
+    "text": "Clinical trials may be eligible under the R&D Tax Incentive, subject to the conditions in the Industry Research and Development (Clinical Trials) Determination 2022. Trials conducted to develop an unapproved therapeutic good can be eligible across these stages:"
    },
    {
     "type": "ul",
@@ -47,7 +47,7 @@
    },
    {
     "type": "p",
-    "text": "Unlike many industries, biotechnology and medical technology companies often require access to a particular patient population, specialised overseas facilities, or research partners with expertise that doesn't exist locally. As a result, overseas activities are relatively common; however, companies frequently underestimate the planning required to secure an Overseas Finding before undertaking the claim."
+    "text": "Unlike many industries, biotechnology and medical technology companies often need access to a particular patient population, specialised overseas facilities, or research partners with expertise that doesn't exist locally. Overseas activities are therefore relatively common, but companies frequently underestimate the planning needed to secure an Overseas Finding before they claim."
    },
    {
     "type": "p",
@@ -55,7 +55,7 @@
    },
    {
     "type": "p",
-    "text": "To qualify, the overseas activities must not be able to be conducted solely in Australia, for one of four specific reasons:"
+    "text": "To qualify, the overseas activities must be unable to be conducted solely in Australia, for one of four specific reasons:"
    },
    {
     "type": "ul",
@@ -68,7 +68,7 @@
    },
    {
     "type": "p",
-    "text": "Financial reasons alone are not a prescribed condition. Cost being lower overseas is not, by itself, sufficient to satisfy the requirement that the activity couldn't be conducted in Australia. Read more about how the [Advance and Overseas Finding process](#blog-overseas) works in full."
+    "text": "Financial reasons alone are not a prescribed condition: lower costs overseas are not, by themselves, enough to show the activity couldn't be conducted in Australia. Read more about how the [Advance and Overseas Finding process](#blog-overseas) works."
    },
    {
     "type": "stats",
@@ -89,94 +89,86 @@
    },
    {
     "type": "p",
-    "text": "If you intend to claim expenditure on overseas R&D activities for the 2026-27 financial year, the Overseas Finding application must be lodged before that date. It is strongly recommended that you commence your application well in advance of this deadline."
+    "text": "If you intend to claim overseas R&D expenditure for the 2026-27 financial year, your Overseas Finding application must be lodged before that date. We strongly recommend starting well ahead of the deadline."
    },
    {
     "type": "p",
-    "text": "If you would like to discuss how these rules apply to your circumstances, our team would be happy to assist. To book a free 30-minute consultation [click here](#book-lina)."
+    "text": "Want to discuss how these rules apply to you? [Book a free consultation call](#book-lina) and our team will be happy to help."
    }
   ]
  },
  {
   "slug": "overseas",
-  "title": "Deadline 2025-26 Advance Overseas Finding Expenditure",
+  "title": "2025-26 Deadline: Advance and Overseas Findings",
   "date": "2 June 2026",
   "tag": "R&D Tax Incentive",
-  "excerpt": "Claiming the R&D Tax Incentive for work conducted outside Australia is possible only if you first obtain a Positive Overseas Finding from AusIndustry.",
+  "excerpt": "You can only claim the R&D Tax Incentive for work done outside Australia if you first obtain a positive Overseas Finding from AusIndustry. Here are the four conditions you must meet.",
   "readTime": "2 min read",
   "image": "/assets/img/blog/overseas.jpeg",
   "blocks": [
    {
     "type": "p",
-    "text": "Claiming the R&D Tax Incentive for work conducted outside Australia is possible only if you first obtain a Positive Overseas Finding from AusIndustry. This process is strict and requires strong evidence that your overseas activities are essential and cannot be conducted solely in Australia."
+    "text": "You can only claim the R&D Tax Incentive for work conducted outside Australia if you first obtain a positive Overseas Finding from AusIndustry. The process is strict, and requires strong evidence that your overseas activities are essential and cannot be conducted solely in Australia."
    },
    {
     "type": "p",
-    "text": "All four conditions for R&D Activities conducted outside of Australia must be met."
+    "text": "All four of the following conditions must be met."
+   },
+   {
+    "type": "h",
+    "text": "1. The overseas activity must be an R&D activity"
    },
    {
     "type": "p",
-    "text": "1. The overseas activity must be an R&D activity for the purposes of the R&DTI."
+    "text": "The overseas activity must meet the R&D Tax Incentive's requirements for either a core R&D activity or a supporting R&D activity."
+   },
+   {
+    "type": "h",
+    "text": "2. It must be needed to complete an Australian core R&D activity"
    },
    {
     "type": "p",
-    "text": "The overseas activity must meet the R&DTI’s requirements for being either a core R&D activity or a supporting R&D activity"
+    "text": "Your Overseas Finding application needs to show that:"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "there is at least one core R&D activity conducted, or to be conducted, solely in Australia (the Australian core activity), and",
+     "you cannot complete the Australian core activity without conducting the overseas R&D activity."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "3. It cannot be conducted solely in Australia"
    },
    {
     "type": "p",
-    "text": "2. There must be an Australian core R&D activity that cannot be completed without conducting the overseas R&D activity"
+    "text": "You must show that the overseas activity cannot be conducted solely in Australia, for one of four allowable reasons. Conducting the activity:"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "requires access to a facility, expertise or equipment not available in Australia",
+     "would contravene laws relating to quarantine",
+     "requires access to a population of living things not available in Australia",
+     "requires access to geographical or geological features not available in Australia."
+    ]
    },
    {
     "type": "p",
-    "text": "Your overseas finding application needs to show that:"
+    "text": "Your application must also provide evidence that you made reasonable efforts to access the required resource within Australia. **Financial reasons alone are not sufficient** to meet this condition."
+   },
+   {
+    "type": "h",
+    "text": "4. Overseas spend must be less than the related Australian spend"
    },
    {
     "type": "p",
-    "text": "there is at least one core R&D activity conducted, or to be conducted, solely in Australia (the Australian core activity); and"
+    "text": "Your application needs to show the total actual and projected expenditure on the related Australian and overseas activities. The total cost of the overseas activities must be less than that of the related Australian core and supporting activities."
    },
    {
     "type": "p",
-    "text": "you cannot complete the Australian core activity without conducting the overseas R&D activity."
-   },
-   {
-    "type": "p",
-    "text": "3. The overseas activity cannot be conducted solely in Australia."
-   },
-   {
-    "type": "p",
-    "text": "You must show that the overseas activity cannot be conducted solely in Australia. There are 4 allowable reasons for this:"
-   },
-   {
-    "type": "p",
-    "text": "conducting the activity requires access to a facility, expertise or equipment not available in Australia"
-   },
-   {
-    "type": "p",
-    "text": "conducting the activity would contravene laws relating to quarantine"
-   },
-   {
-    "type": "p",
-    "text": "conducting the activity requires access to a population (of living things) not available in Australia"
-   },
-   {
-    "type": "p",
-    "text": "conducting the activity requires access to geographical or geological features not available in Australia."
-   },
-   {
-    "type": "p",
-    "text": "Your overseas finding application must provide evidence that shows you made reasonable efforts to obtain or gain access to the required resource within Australia."
-   },
-   {
-    "type": "p",
-    "text": "Note financial reasons alone are not sufficient to meet this condition."
-   },
-   {
-    "type": "p",
-    "text": "4. Expenditure on overseas R&D activities must be less than the expenditure on the related core and supporting R&D activities conducted solely in Australia."
-   },
-   {
-    "type": "p",
-    "text": "Your overseas finding application needs to show the total actual and projected expenditure of related Australian and overseas activities. The total cost of the overseas activities must be less than the related Australian activities."
+    "text": "Planning overseas R&D this year? [Book a free consultation call](#book-lina) and we can help you prepare your application."
    }
   ]
  },
@@ -186,149 +178,135 @@
   "date": "14 May 2026",
   "tag": "R&D Tax Incentive",
   "excerpt": "The recent Federal Budget included a number of proposed changes to the R&D Tax Incentive program that may affect how businesses claim R&D from 1 July 2028.",
-  "readTime": "3 min read",
+  "readTime": "2 min read",
   "image": "/assets/img/blog/federal-budget-update-proposed-changes-to-the-rd-tax-incentive.jpeg",
   "blocks": [
    {
     "type": "p",
-    "text": "The recent Federal Budget included a number of proposed changes to the R&D Tax Incentive program that may affect how businesses claim R&D from 1 July 2028."
+    "text": "The recent Federal Budget included a number of proposed changes to the R&D Tax Incentive that may affect how businesses claim R&D from 1 July 2028."
    },
    {
     "type": "p",
-    "text": "These proposed reforms appear to adopt several recommendations from the Government’s Strategic Examination of Research and Development report and are intended to reshape how innovation support is delivered in Australia."
+    "text": "The proposed reforms appear to adopt several recommendations from the Government's Strategic Examination of Research and Development report, and are intended to reshape how innovation support is delivered in Australia. Here are the key points."
+   },
+   {
+    "type": "h",
+    "text": "Higher offset for experimental core activities"
    },
    {
     "type": "p",
-    "text": "Key points include:"
+    "text": "The Budget proposes an increase of approximately 25–50% to the R&D tax offset for experimental core R&D activities only, to better reward genuinely experimental work. Further detail is expected once exposure draft legislation and ATO guidance are released, likely later in the 2026–27 financial year or into 2027."
    },
    {
-    "type": "ul",
-    "items": [
-     "Increase in the R&D offset for experimental core activities"
-    ]
-   },
-   {
-    "type": "p",
-    "text": "The Budget proposes an increase of approximately 25–50% to the R&D tax offset for experimental core R&D activities only. This enhancement is intended to better reward genuinely experimental work. Further detail will be confirmed once exposure draft legislation and ATO guidance are released, expected later in the 2026–27 financial year or into 2027."
-   },
-   {
-    "type": "ul",
-    "items": [
-     "Removal of eligibility for expenditure that only supports R&D"
-    ]
+    "type": "h",
+    "text": "No more eligibility for supporting-only expenditure"
    },
    {
     "type": "p",
-    "text": "Under the proposal, expenditure that solely supports R&D activities would no longer be eligible. This change is expected to negatively impact some claims, particularly where supporting activities form a significant portion of total R&D spend. The overall impact will vary depending on each business’s mix of core versus supporting R&D expenditure and may be partially offset by the higher core R&D offset rate."
+    "text": "Under the proposal, expenditure that solely supports R&D activities would no longer be eligible. This is expected to reduce some claims, particularly where supporting activities make up a significant share of total R&D spend. The overall impact will depend on each business's mix of core and supporting expenditure, and may be partly offset by the higher core offset rate."
    },
    {
-    "type": "ul",
-    "items": [
-     "Reduction in the R&D intensity threshold to 1.5%"
-    ]
-   },
-   {
-    "type": "p",
-    "text": "The R&D intensity threshold is proposed to reduce from 2% to 1.5%, improving access to higher R&D offset rates. This change is expected to benefit larger businesses on the non‑refundable tier by lowering the threshold for accessing the premium offset rate, allowing more firms that were previously just below the 2% threshold to qualify."
-   },
-   {
-    "type": "ul",
-    "items": [
-     "Expanded refundable offset for younger businesses"
-    ]
+    "type": "h",
+    "text": "R&D intensity threshold lowered to 1.5%"
    },
    {
     "type": "p",
-    "text": "The turnover threshold for accessing the refundable R&D offset is proposed to increase from $20 million to $50 million, providing greater support to young, fast‑growing businesses. However, refundability would be limited to businesses operating for less than 10 years, with older businesses eligible for an equivalent non‑refundable offset. This may negatively impact cashflow for established companies continuing to invest heavily in R&D."
+    "text": "The R&D intensity threshold is proposed to fall from 2% to 1.5%, making the higher offset rate easier to reach. This is expected to benefit larger businesses on the non-refundable tier, particularly those previously just below the 2% threshold."
    },
    {
-    "type": "ul",
-    "items": [
-     "Increase in the maximum R&D expenditure cap"
-    ]
-   },
-   {
-    "type": "p",
-    "text": "The maximum eligible R&D expenditure cap is proposed to increase from $150 million to $200 million. This measure is targeted at larger businesses and is intended to encourage more R&D activity to be undertaken in Australia, rather than overseas."
-   },
-   {
-    "type": "ul",
-    "items": [
-     "Increase in the minimum R&D expenditure threshold"
-    ]
+    "type": "h",
+    "text": "Refundable offset expanded for younger businesses"
    },
    {
     "type": "p",
-    "text": "The minimum R&D expenditure threshold is proposed to increase from $20,000 to $50,000. Claims below this level would be required to be undertaken in conjunction with a Research Service Provider (RSP) or Cooperative Research Centre (CRC). This represents a softening from the previously suggested $150,000 threshold and provides some relief for smaller R&D claimants."
+    "text": "The turnover threshold for the refundable offset is proposed to rise from $20 million to $50 million, giving more support to young, fast-growing businesses. However, refundability would be limited to businesses operating for less than 10 years; older businesses would receive an equivalent non-refundable offset. This may affect cashflow for established companies that continue to invest heavily in R&D."
+   },
+   {
+    "type": "h",
+    "text": "Maximum expenditure cap raised to $200 million"
+   },
+   {
+    "type": "p",
+    "text": "The cap on eligible R&D expenditure is proposed to rise from $150 million to $200 million. This targets larger businesses and is intended to encourage more R&D to be done in Australia rather than overseas."
+   },
+   {
+    "type": "h",
+    "text": "Minimum spend threshold raised to $50,000"
+   },
+   {
+    "type": "p",
+    "text": "The minimum R&D expenditure threshold is proposed to rise from $20,000 to $50,000. Claims below this level would need to be made in conjunction with a Research Service Provider (RSP) or Cooperative Research Centre (CRC). This is softer than the previously suggested $150,000 threshold, and gives some relief to smaller claimants."
+   },
+   {
+    "type": "p",
+    "text": "Want to understand how these changes could affect your claims? [Book a free consultation call](#book-lina)."
    }
   ]
  },
  {
   "slug": "rd-tax-incentive-2024-25-deadline-30-april-2026",
-  "title": "R&D Tax Incentive 2024-25 - Deadline 30 April 2026",
+  "title": "R&D Tax Incentive 2024-25: Register by 30 April 2026",
   "date": "1 April 2026",
   "tag": "R&D Tax Incentive",
   "excerpt": "If your company spent at least $20,000 on eligible R&D in 2024–25, you may qualify for a tax offset of up to 43.5% through the R&D Tax Incentive.",
-  "readTime": "2 min read",
+  "readTime": "1 min read",
   "image": "/assets/img/blog/rd-tax-incentive-2024-25-deadline-30-april-2026.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "If your company spent at least $20,000 on eligible R&D in 2024–25, you may qualify for a tax offset of up to 43.5% through the R&D Tax Incentive. The program supports businesses developing new or improved products, processes, or technologies where the outcome was genuinely uncertain."
+    "text": "If your company spent at least $20,000 on eligible R&D in 2024–25, you may qualify for a tax offset of up to 43.5% through the R&D Tax Incentive. The program supports businesses developing new or improved products, processes or technologies where the outcome was genuinely uncertain."
+   },
+   {
+    "type": "h",
+    "text": "Who is eligible?"
    },
    {
     "type": "p",
-    "text": "WHO IS ELIGIBLE?"
-   },
-   {
-    "type": "p",
-    "text": "Companies who are:"
+    "text": "Companies that are:"
    },
    {
     "type": "ul",
     "items": [
-     "Incorporated in Australia, or",
-     "Incorporated offshore but an Australian income tax resident, or",
-     "Incorporated offshore in a country with which Australia has a double tax agreement, and carrying on business in Australia through a permanent establishment."
+     "incorporated in Australia, or",
+     "incorporated offshore but an Australian income tax resident, or",
+     "incorporated offshore in a country with which Australia has a double tax agreement, and carrying on business in Australia through a permanent establishment."
     ]
    },
    {
+    "type": "h",
+    "text": "What activities qualify?"
+   },
+   {
     "type": "p",
-    "text": "TO QUALIFY, YOUR R&D ACTIVITIES MUST:"
+    "text": "Your R&D activities must:"
    },
    {
     "type": "ul",
     "items": [
-     "Aims to create new or improved products, processes, or technology",
-     "Resolves technical uncertainty that could not be solved using existing knowledge",
-     "Uses a systematic approach to experimentation"
+     "aim to create new or improved products, processes or technology",
+     "resolve technical uncertainty that could not be solved using existing knowledge",
+     "use a systematic approach to experimentation."
     ]
    },
    {
-    "type": "p",
-    "text": "REFUNDABLE CASH BENEFIT"
-   },
-   {
-    "type": "ul",
-    "items": [
-     "Companies with turnovers of less than $20 mill may be eligible to receive a refundable tax offset, meaning you could receive a direct cash payment, not just a reduction in tax."
-    ]
+    "type": "h",
+    "text": "A refundable cash benefit"
    },
    {
     "type": "p",
-    "text": "DON’T MISS THE DEADLINE"
+    "text": "Companies with turnover of less than $20 million may be eligible for a refundable tax offset. That means you could receive a direct cash payment, not just a reduction in tax."
+   },
+   {
+    "type": "h",
+    "text": "Don't miss the deadline"
    },
    {
     "type": "p",
-    "text": "Registration for the 2024–25 year closes on 30 April. Missing this deadline may mean waiting another year to claim."
+    "text": "Registration for the 2024–25 year closes on **30 April 2026**. Missing it may mean waiting another year to claim."
    },
    {
     "type": "p",
-    "text": "If you’re unsure whether your activities qualify, we can assess your eligibility and guide you through the process."
-   },
-   {
-    "type": "p",
-    "text": "Contact us today to confirm your eligibility and ensure you don’t miss out. To book a free 30-minute consultation with us."
+    "text": "Unsure whether your activities qualify? We can assess your eligibility and guide you through the process. [Book a free consultation call](#book-lina) to make sure you don't miss out."
    }
   ]
  },
@@ -337,32 +315,32 @@
   "title": "How to Claim Overseas R&D Under the R&D Tax Incentive",
   "date": "18 February 2026",
   "tag": "R&D Tax Incentive",
-  "excerpt": "Claiming the R&D Tax Incentive for work conducted outside Australia is possible but only if you first obtain a Positive Overseas Finding from AusIndustry.",
+  "excerpt": "You can claim the R&D Tax Incentive for work conducted outside Australia, but only if you first obtain a positive Overseas Finding from AusIndustry.",
   "readTime": "2 min read",
   "image": "/assets/img/blog/how-to-claim-overseas-rd-under-the-rd-tax-incentive.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "Claiming the R&D Tax Incentive for work conducted outside Australia is possible but only if you first obtain a Positive Overseas Finding from AusIndustry. This process is strict and requires strong evidence that your overseas activities are essential and cannot reasonably be conducted in Australia."
+    "text": "You can claim the R&D Tax Incentive for work conducted outside Australia, but only if you first obtain a positive Overseas Finding from AusIndustry. The process is strict, and requires strong evidence that your overseas activities are essential and cannot reasonably be conducted in Australia."
    },
    {
     "type": "p",
-    "text": "The Key Requirements – You Must Meet all Four to be Eligible"
+    "text": "There are four key requirements, and you must meet all of them."
+   },
+   {
+    "type": "h",
+    "text": "1. Scientific necessity and activity links"
    },
    {
     "type": "p",
-    "text": "1. Scientific Necessity & Activity Links"
-   },
-   {
-    "type": "p",
-    "text": "To be eligible, your overseas activities must:"
+    "text": "Your overseas activities must:"
    },
    {
     "type": "ul",
     "items": [
-     "Qualify as core or supporting R&D activities.",
-     "Have a direct and scientifically‑based connection to your Australian core R&D activity.",
-     "Be demonstrated as necessary to progress the Australian R&D, meaning the Australian activity cannot be completed without the overseas component."
+     "qualify as core or supporting R&D activities",
+     "have a direct, scientifically based connection to your Australian core R&D activity",
+     "be shown to be necessary to progress the Australian R&D, meaning the Australian activity cannot be completed without the overseas component."
     ]
    },
    {
@@ -370,78 +348,73 @@
     "text": "This scientific dependency must be clearly explained in your Overseas Finding application."
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "2. Unavailability in Australia"
    },
    {
     "type": "p",
-    "text": "You must prove that the activity cannot reasonably be conducted in Australia due to:"
+    "text": "You must prove that the activity cannot reasonably be conducted in Australia because of:"
    },
    {
     "type": "ul",
     "items": [
-     "Required facilities, equipment, technology, or scientific expertise not being available locally.",
-     "Need for specific environmental, geographical, or geological conditions present only overseas.",
-     "Regulatory restrictions (e.g., quarantine laws) preventing the activity from occurring in Australia."
+     "facilities, equipment, technology or scientific expertise not available locally",
+     "specific environmental, geographical or geological conditions found only overseas, or",
+     "regulatory restrictions (such as quarantine laws) that prevent the activity from occurring in Australia."
     ]
    },
    {
     "type": "p",
-    "text": "Note: Financial considerations, such as cheaper costs overseas, do not qualify as valid justification on their own."
+    "text": "**Note:** financial considerations, such as lower costs overseas, are not a valid justification on their own."
+   },
+   {
+    "type": "h",
+    "text": "3. Cost balance"
    },
    {
     "type": "p",
-    "text": "3. Cost Balance Requirements"
+    "text": "The R&D Tax Incentive is designed to prioritise Australian R&D. Your expenditure on overseas R&D activities must therefore be less than your Australian R&D expenditure over the life of the project."
+   },
+   {
+    "type": "h",
+    "text": "4. Timing and validity"
    },
    {
     "type": "p",
-    "text": "The R&D Tax Incentive is designed to prioritise Australian R&D expenditure. As such, your expenditure on overseas R&D activities must be less than your Australian R&D expenditure over the entire life of the project."
-   },
-   {
-    "type": "p",
-    "text": "4. Critical Timing & Validity Period"
-   },
-   {
-    "type": "p",
-    "text": "Timing is strict and non‑negotiable:"
+    "text": "Timing is strict and non-negotiable:"
    },
    {
     "type": "ul",
     "items": [
      "Overseas Finding applications must be submitted before the end of the income year in which the activity occurs.",
-     "Late applications cannot be accepted."
+     "Late applications cannot be accepted, and no extensions, exemptions or discretion apply.",
+     "A positive Overseas Finding is valid only for the duration of the approved activity."
     ]
    },
    {
+    "type": "h",
+    "text": "After you receive a finding"
+   },
+   {
     "type": "p",
-    "text": "No extensions, exemptions, or discretion apply."
+    "text": "Even with a positive Overseas Finding, companies must still:"
    },
    {
     "type": "ul",
     "items": [
-     "Positive Overseas Findings are valid only for the duration of the approved activity."
+     "register all R&D activities with AusIndustry each year, and",
+     "lodge the claim through the company tax return to receive the offset."
     ]
    },
    {
     "type": "p",
-    "text": "Important Final Requirement"
-   },
-   {
-    "type": "p",
-    "text": "Even after receiving a Positive Overseas Finding, companies must still:"
-   },
-   {
-    "type": "ul",
-    "items": [
-     "Register all R&D activities annually with AusIndustry, and",
-     "Lodge the claim through the company tax return to receive the offset."
-    ]
+    "text": "Need help with an Overseas Finding? [Book a free consultation call](#book-lina)."
    }
   ]
  },
  {
   "slug": "2024-25-rd-tax-incentive-deadline-get-ready-now",
-  "title": "2024-25 R&D Tax Incentive Deadline - Get Ready Now",
+  "title": "2024-25 R&D Tax Incentive Deadline: Five Things to Get Right",
   "date": "29 January 2026",
   "tag": "Consulting",
   "excerpt": "The 30 April 2026 deadline for the 2024-25 Research and Development Tax Incentive (RDTI) is fast approaching.",
@@ -454,75 +427,71 @@
    },
    {
     "type": "p",
-    "text": "Here are five things to keep in mind to ensure your application is a success."
+    "text": "Here are five things to keep in mind for a successful application."
+   },
+   {
+    "type": "h",
+    "text": "1. Know the deadline, and the limits of extensions"
    },
    {
     "type": "p",
-    "text": "1. Know the Deadline (and the Limits of Extensions)"
-   },
-   {
-    "type": "p",
-    "text": "The statutory registration deadline is 30 April. That said, AusIndustry do allow extension, but only if you act before the deadline."
+    "text": "The statutory registration deadline is 30 April. AusIndustry does allow extensions, but only if you request one before the deadline:"
    },
    {
     "type": "ul",
     "items": [
-     "Up to 14 days: Requests lodged via the portal before 30 April, with your explanation",
-     "Up to 92 days: Longer extensions require convincing evidence and are not guaranteed. The legal maximum of days is 92 days beyond the deadline."
+     "**Up to 14 days:** request through the portal before 30 April, with your explanation.",
+     "**Up to 92 days:** longer extensions require convincing evidence and are not guaranteed. 92 days beyond the deadline is the legal maximum."
     ]
    },
    {
-    "type": "p",
-    "text": "2. Clearly Articulate Your Technical Uncertainty"
+    "type": "h",
+    "text": "2. Clearly explain your technical uncertainty"
    },
    {
     "type": "p",
-    "text": "Eligibility doesn’t hinge on effort or commercial aims; it hinges on technical uncertainty."
+    "text": "Eligibility doesn't hinge on effort or commercial aims; it hinges on technical uncertainty. Your application must prove the knowledge gap, the hypothesis, and why the outcome could not be determined in advance."
    },
    {
     "type": "p",
-    "text": "Your application must prove the knowledge gap, the hypothesis, and why the outcome could not be determined in advance."
+    "text": "Supporting evidence matters here. Keep the sources you investigated before starting the project to prove the knowledge gap, including records of discussions with competent professionals, along with project plans, design iterations, test results, internal emails, and anything else that shows a genuine, systematic approach to problem-solving."
+   },
+   {
+    "type": "h",
+    "text": "3. Recheck your eligible R&D expenditure"
    },
    {
     "type": "p",
-    "text": "Supporting evidence matters here: sources investigated prior to commencing your project to prove the knowledge gap (new idea), including records of any discussions with competent professionals, project plans, design iterations, testing results, internal emails, anything that demonstrates a genuine, systematic approach to problem-solving."
-   },
-   {
-    "type": "p",
-    "text": "3. Recheck Eligible R&D Expenditure"
-   },
-   {
-    "type": "p",
-    "text": "R&D claims are rarely limited to wages alone. Depending on your activities, eligible expenditure may also include:"
+    "text": "R&D claims are rarely limited to wages. Depending on your activities, eligible expenditure may also include:"
    },
    {
     "type": "ul",
     "items": [
-     "Contractor and consultant costs",
-     "Materials consumed during testing",
-     "Some business overheads",
-     "Depreciation on assets used for R&D"
+     "contractor and consultant costs",
+     "materials consumed during testing",
+     "some business overheads",
+     "depreciation on assets used for R&D."
     ]
    },
    {
-    "type": "p",
-    "text": "4. Getting Your Application Right"
+    "type": "h",
+    "text": "4. Get the application right"
    },
    {
     "type": "p",
-    "text": "AusIndustry recent application form changes have a renewed focus on compliance. Weak activity descriptions, unclear hypotheses, or copy-and-paste language are more likely to trigger questions or even an audit. A solid, well-reasoned registration now can save months (and sometimes years) of stress later. Engaging early helps to ensure adequate time to prepare a robust and defensible application aligned with AusIndustry expectations."
+    "text": "AusIndustry's recent application form changes bring a renewed focus on compliance. Weak activity descriptions, unclear hypotheses or copy-and-paste language are more likely to trigger questions, or even an audit. A solid, well-reasoned registration now can save months (sometimes years) of stress later. Starting early gives you time to prepare a robust, defensible application that meets AusIndustry's expectations."
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "5. Lodge early"
    },
    {
     "type": "p",
-    "text": "The registration portal often slows significantly in the final 48 hours before the deadline. System failures can occur. Submit early or lodge a 14-day extension well before 30 April, to avoid any last-minute issues."
+    "text": "The registration portal often slows significantly in the final 48 hours before the deadline, and system failures can occur. Submit early, or request a 14-day extension well before 30 April, to avoid last-minute issues."
    },
    {
     "type": "p",
-    "text": "If you have any questions, please don’t hesitate to contact me at lina@grantready.com.au, or book a time to chat."
+    "text": "Have questions? Contact Lina at [lina@grantready.com.au](mailto:lina@grantready.com.au), or [book a free consultation call](#book-lina)."
    }
   ]
  },
@@ -532,83 +501,71 @@
   "date": "4 September 2025",
   "tag": "R&D Tax Incentive",
   "excerpt": "AusIndustry has released a new R&D Tax Incentive application form, effective 15 August. On the surface, the changes may look like small tweaks.",
-  "readTime": "2 min read",
+  "readTime": "1 min read",
   "image": "/assets/img/blog/ready-to-lodge-new-ausindustry-form-from-15-august.jpeg",
   "blocks": [
    {
     "type": "p",
-    "text": "AusIndustry has released a new R&D Tax Incentive application form, effective 15 August. On the surface, the changes may look like small tweaks. In reality, they mark a shift in how applications are assessed and the risks if you get it wrong."
+    "text": "AusIndustry has released a new R&D Tax Incentive application form, effective 15 August. On the surface, the changes may look like small tweaks. In reality, they mark a shift in how applications are assessed, and raise the stakes if you get it wrong."
    },
    {
-    "type": "p",
-    "text": "Here’s what’s new:"
-   },
-   {
-    "type": "ul",
-    "items": [
-     "More detail required – larger character limits mean longer, more technical explanations of your projects.",
-     "Additional questions – covering your documentation and record-keeping.",
-     "Sources investigated – you’ll now need to outline what you reviewed before starting your R&D."
-    ]
-   },
-   {
-    "type": "p",
-    "text": "But there’s more behind these updates."
-   },
-   {
-    "type": "p",
-    "text": "The application is no longer just about registering your R&D activities. The additional requirements provide information that AusIndustry and the ATO can use later in compliance reviews. In effect, the form is beginning to look like an audit document."
-   },
-   {
-    "type": "p",
-    "text": "That means:"
+    "type": "h",
+    "text": "What's new"
    },
    {
     "type": "ul",
     "items": [
-     "Increased preparation time and cost – vague answers won’t cut it; detailed, evidence-backed explanations are needed.",
-     "Greater scrutiny – incomplete or unclear responses could flag your claim for review, even if your activities are otherwise eligible.",
-     "Added compliance burden – elements from the more detailed Advance Finding process, such as projected expenditure and record-keeping standards, have been pulled into the registration stage."
+     "**More detail required:** larger character limits mean longer, more technical explanations of your projects.",
+     "**Additional questions:** covering your documentation and record-keeping.",
+     "**Sources investigated:** you'll now need to outline what you reviewed before starting your R&D."
     ]
    },
    {
-    "type": "p",
-    "text": "That’s why it’s never been more important to have expert guidance."
+    "type": "h",
+    "text": "Why it matters"
    },
    {
     "type": "p",
-    "text": "GrantReady has helped Australian businesses secure more than $700m in R&D support over the past 20 years. We know how to prepare applications that stand up under scrutiny, without overburdening your business."
+    "text": "The application is no longer just about registering your R&D activities. The extra information it collects can be used by AusIndustry and the ATO in later compliance reviews. In effect, the form is starting to look like an audit document. That means:"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "**More preparation time and cost:** vague answers won't cut it; detailed, evidence-backed explanations are needed.",
+     "**Greater scrutiny:** incomplete or unclear responses could flag your claim for review, even if your activities are otherwise eligible.",
+     "**Added compliance burden:** elements of the more detailed Advance Finding process, such as projected expenditure and record-keeping standards, are now part of the registration stage."
+    ]
+   },
+   {
+    "type": "h",
+    "text": "Get expert help"
    },
    {
     "type": "p",
-    "text": "Let us make sure your claim is robust, compliant, and successful."
+    "text": "That's why expert guidance has never been more important. GrantReady has helped Australian businesses secure more than $700 million in R&D support over the past 20 years. We know how to prepare applications that stand up to scrutiny, without overburdening your business."
    },
    {
     "type": "p",
-    "text": "If you have any questions, please don’t hesitate to contact me at lina@grantready.com.au"
+    "text": "Have questions? Contact Lina at [lina@grantready.com.au](mailto:lina@grantready.com.au), or [book a free consultation call](#book-lina)."
    }
   ]
  },
  {
   "slug": "northern-territory-2025-2026-state-budget",
-  "title": "Northern Territory 2025-2026 State Budget",
+  "title": "Northern Territory 2025-26 Budget: Highlights",
   "date": "3 July 2025",
   "tag": "Grants",
   "excerpt": "The Northern Territory 2025-26 Budget was handed down on 13 May 2025. Here are some highlights:",
-  "readTime": "3 min read",
+  "readTime": "2 min read",
   "image": "/assets/img/blog/northern-territory-2025-2026-state-budget.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "The Northern Territory 2025-26 Budget was handed down on 13 May 2025. Here are some highlights:"
+    "text": "The Northern Territory 2025-26 Budget was handed down on 13 May 2025. Here are the highlights for businesses and Territorians."
    },
    {
-    "type": "p",
-    "text": "Cost of living support"
-   },
-   {
-    "type": "p",
-    "text": "For businesses:"
+    "type": "h",
+    "text": "Cost of living support for businesses"
    },
    {
     "type": "ul",
@@ -621,24 +578,22 @@
     ]
    },
    {
-    "type": "p",
-    "text": "For individuals:"
+    "type": "h",
+    "text": "Cost of living support for individuals"
    },
    {
     "type": "ul",
     "items": [
-     "Electricity subsidies through community service obligation funding to electricity retailers to maintain prices below cost of supply:",
-     "$1,900 for families.",
-     "$1,400 for senior Territorians and apprentices/trainees.",
-     "$1,800 for a couple building their first home",
-     "Up to $12,000 grant to buy and install batteries and inverters under the Home and Business Battery Scheme for families.",
-     "Up to $1,000 to buy and install an electric vehicle (EV) charger, and up to $1,500 in EV stamp duty concessions on the registration of new and second hand battery EVs and plugin hybrid EVs for senior Territorians.",
+     "Electricity subsidies through community service obligation funding to retailers, keeping prices below the cost of supply: $1,900 for families, and $1,400 for senior Territorians and apprentices/trainees.",
+     "$1,800 for a couple building their first home.",
+     "Up to $12,000 grant to buy and install batteries and inverters for families under the Home and Business Battery Scheme.",
+     "Up to $1,000 to buy and install an electric vehicle (EV) charger, and up to $1,500 in EV stamp duty concessions on the registration of new and second-hand battery EVs and plug-in hybrid EVs for senior Territorians.",
      "Up to $50,000 to build a new home under the HomeGrown Territory grant.",
-     "The FreshStart new home grant, which provides $30,000 to buy or build a new home. In an Australian first, this includes anyone who has previously owned or currently owns a home."
+     "The FreshStart new home grant of $30,000 to buy or build a new home. In an Australian first, this includes people who have previously owned or currently own a home."
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Growing the tourism industry"
    },
    {
@@ -651,7 +606,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Building a bigger, better workforce"
    },
    {
@@ -663,25 +618,25 @@
    },
    {
     "type": "p",
-    "text": "Budget papers can be found here."
+    "text": "The full budget papers are available on the [Northern Territory budget website](https://budget.nt.gov.au)."
    }
   ]
  },
  {
   "slug": "queensland-2025-2026-state-budget",
-  "title": "Queensland 2025 - 2026 State Budget",
+  "title": "Queensland 2025-26 State Budget: Highlights",
   "date": "3 July 2025",
-  "tag": "Consulting",
+  "tag": "Grants",
   "excerpt": "The Queensland 2025-26 State Budget was handed down on 24 June 2025. Here are some highlights:",
-  "readTime": "4 min read",
+  "readTime": "3 min read",
   "image": "/assets/img/blog/queensland-2025-2026-state-budget.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "The Queensland 2025-26 State Budget was handed down on 24 June 2025. Here are some highlights:"
+    "text": "The Queensland 2025-26 State Budget was handed down on 24 June 2025. Here are the highlights."
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Backing small and family business"
    },
    {
@@ -693,7 +648,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Growing the primary industries"
    },
    {
@@ -705,7 +660,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Tourism"
    },
    {
@@ -715,18 +670,18 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Safety where you live"
    },
    {
     "type": "ul",
     "items": [
      "Supporting small businesses to prevent crime by bolstering security with $40 million across 3 years for the Secure Communities Partnership Program.",
-     "Protecting and supporting victims of crime with $275 million this year for financial assistance, $50 million for a new Victims Advocate Service, $12.9 million over 4 years for the Victims of Crime Community Response program and a major boost to the capacity of Victim Liaison Services to support victims navigate the justice system."
+     "Protecting and supporting victims of crime with $275 million this year for financial assistance, $50 million for a new Victims Advocate Service, $12.9 million over 4 years for the Victims of Crime Community Response program and a major boost to the capacity of Victim Liaison Services to support victims to navigate the justice system."
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Cost of living support"
    },
    {
@@ -742,7 +697,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Housing support"
    },
    {
@@ -754,7 +709,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Creative arts"
    },
    {
@@ -765,7 +720,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Disaster support"
    },
    {
@@ -777,25 +732,25 @@
    },
    {
     "type": "p",
-    "text": "Budget papers can be found here."
+    "text": "The full budget papers are available on the [Queensland budget website](https://budget.qld.gov.au)."
    }
   ]
  },
  {
   "slug": "new-south-wales-2025-2026-state-budget",
-  "title": "New South Wales 2025 - 2026 State Budget",
+  "title": "New South Wales 2025-26 State Budget: Highlights",
   "date": "3 July 2025",
   "tag": "Grants",
-  "excerpt": "The New South Wales State 2025-26 State Budget was handed down on 24 June 2025. Here are some highlights:",
-  "readTime": "5 min read",
+  "excerpt": "The New South Wales 2025-26 State Budget was handed down on 24 June 2025. Here are the highlights.",
+  "readTime": "4 min read",
   "image": "/assets/img/blog/new-south-wales-2025-2026-state-budget.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "The New South Wales State 2025-26 State Budget was handed down on 24 June 2025. Here are some highlights:"
+    "text": "The New South Wales 2025-26 State Budget was handed down on 24 June 2025. Here are the highlights."
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Jobs and industry"
    },
    {
@@ -805,18 +760,26 @@
      "The $27.3 million Future Jobs and Investment Authority will coordinate new economic opportunities in coal-producing regions in the Hunter, Illawarra, Central West and North West.",
      "The $12.5 million NSW Take-Off Fund will boost the tourism and export industries.",
      "The Budget invests more than $140 million in protecting and growing primary industries through biosecurity enhancements, pest control, and additional funding for research and development.",
-     "The Government will defer up to $250 million of royalties on new critical minerals projects, enabling investment in regional areas and supporting the energy transition.",
-     "A $79.2 million package will cement New South Wales as the best place to innovate. This includes:",
+     "The Government will defer up to $250 million of royalties on new critical minerals projects, enabling investment in regional areas and supporting the energy transition."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "A $79.2 million package aims to cement New South Wales as the best place to innovate. It includes:"
+   },
+   {
+    "type": "ul",
+    "items": [
      "$20 million for the Emerging Technology Commercialisation Fund, including the continuation of the Biosciences Fund and Physical Sciences Fund, helping businesses commercialise research into marketable products and services.",
      "$6 million to establish an Innovative Manufacturing Adoption Fund, helping manufacturing businesses expand and adopt new technology.",
      "$4 million to establish the Diversity Pre-Accelerator Program to support founders from diverse backgrounds develop their business models and secure seed investment.",
-     "$4 million will establish the Housing Innovation Network and Housing Construction Program to connect researchers, start-ups and industry, and promote new technologies that speed up housing construction.",
+     "$4 million to establish the Housing Innovation Network and Housing Construction Program to connect researchers, start-ups and industry, and promote new technologies that speed up housing construction.",
      "$700,000 for the extension of the National Space Industry Hub.",
      "A further $2.1 million will extend support for the Industry Capability Network."
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Housing and planning"
    },
    {
@@ -824,11 +787,11 @@
     "items": [
      "The NSW Government will guarantee pre-sales for up to $1 billion of approved housing projects on a rolling basis, allowing developers to secure finance earlier and commence construction more quickly.",
      "$20.9 million to support regional councils to bring forward critical enabling infrastructure for new homes by funding interest on loans.",
-     "$40.2 million to continue fee free apprenticeships and traineeships for priority qualifications."
+     "$40.2 million to continue fee-free apprenticeships and traineeships for priority qualifications."
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Energy and climate change"
    },
    {
@@ -838,7 +801,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Emergency services and disaster recovery"
    },
    {
@@ -849,7 +812,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "First Nations"
    },
    {
@@ -862,7 +825,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Culture and sport"
    },
    {
@@ -873,12 +836,12 @@
      "$20 million for Sound NSW to implement the NSW Contemporary Music Strategy through grants programs, capacity-building initiatives and regulatory reform to strengthen the New South Wales music industry.",
      "$20 million for Create NSW to continue delivering services to support creative industries and the NSW Creative Communities Policy.",
      "$5 million for the Vibrant Streets Package, to support the NSW Government’s Vibrancy Reforms by creating more flexible, safe and welcoming streets, transport hubs and public spaces.",
-     "$41.6 million to deliver the Better Open Spaces grant program to embed bestpractice inclusive design in public open spaces across New South Wales through a matched-funding council grants program.",
+     "$41.6 million to deliver the Better Open Spaces grant program to embed best-practice inclusive design in public open spaces across New South Wales through a matched-funding council grants program.",
      "$14.5 million for Multicultural NSW to support community cohesion and the state’s diverse multicultural communities."
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Cost-of-living relief"
    },
    {
@@ -894,25 +857,25 @@
    },
    {
     "type": "p",
-    "text": "Budget papers can be found here."
+    "text": "The full budget papers are available on the [NSW budget website](https://www.budget.nsw.gov.au)."
    }
   ]
  },
  {
   "slug": "victorian-state-budget-2025-26",
-  "title": "Victorian State Budget - 2025-26",
+  "title": "Victorian 2025-26 State Budget: Highlights",
   "date": "27 May 2025",
   "tag": "Grants",
-  "excerpt": "The Victorian Government 2025-26 Budget was handed down on 20 May 2025. Here are some highlights:",
-  "readTime": "3 min read",
+  "excerpt": "The Victorian 2025-26 Budget was handed down on 20 May 2025. Here are the highlights.",
+  "readTime": "2 min read",
   "image": "/assets/img/blog/victorian-state-budget-2025-26.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "The Victorian Government 2025-26 Budget was handed down on 20 May 2025. Here are some highlights:"
+    "text": "The Victorian 2025-26 Budget was handed down on 20 May 2025. Here are the highlights."
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Business and economic support"
    },
    {
@@ -942,7 +905,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Cost of living"
    },
    {
@@ -959,7 +922,7 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Energy and environment"
    },
    {
@@ -977,19 +940,27 @@
     ]
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Strong communities"
    },
    {
     "type": "p",
-    "text": "The 2025-26 Budget provides:"
+    "text": "The 2025-26 Budget provides $629 million to support strong and connected communities, including:"
    },
    {
     "type": "ul",
     "items": [
-     "$629 million to support a strong and connected communities.",
      "$77 million to support Victorians from multicultural communities including $57 million to continue the English as an Additional Language program in schools.",
-     "$552 million to continue strengthening our creative sector, including:",
+     "$552 million to continue strengthening our creative sector, including:"
+    ]
+   },
+   {
+    "type": "p",
+    "text": "The creative sector funding includes:"
+   },
+   {
+    "type": "ul",
+    "items": [
      "$475 million to enable creative agencies to deliver exhibitions, performances and experiences.",
      "$50 million to continue support for Victoria’s screen industry.",
      "$13 million to grow creative jobs and reach more Victorians, including with touring performances."
@@ -997,7 +968,7 @@
    },
    {
     "type": "p",
-    "text": "Budget papers can be found here."
+    "text": "The full budget papers are available on the [Victorian budget website](https://www.budget.vic.gov.au)."
    }
   ]
  },
@@ -1006,97 +977,85 @@
   "title": "2024-25 Federal Budget: Is There Much New Other Than a Green Bonanza?",
   "date": "14 May 2024",
   "tag": "Business",
-  "excerpt": "2024-25 Federal Budget: Is there much new other than a green bonanza?",
-  "readTime": "4 min read",
+  "excerpt": "The 2024-25 Federal Budget delivered a $9.3 billion surplus and billions for green manufacturing, but little new for the rest of business.",
+  "readTime": "3 min read",
   "image": "/assets/img/blog/2024-25-federal-budget-is-there-much-new-than-a-green-bonanza.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "2024-25 Federal Budget: Is there much new other than a green bonanza?"
+    "text": "Treasurer Jim Chalmers has handed down the 2024-25 Budget, delivering a $9.3 billion surplus with a focus on inflation and cost-of-living pressures. Significant investments aim to make Australia a renewable energy superpower, while the rest of business has largely been ignored."
+   },
+   {
+    "type": "h",
+    "text": "Green manufacturing"
    },
    {
     "type": "p",
-    "text": "Treasurer Jim Chalmers has handed down the 2024-25 budget, delivering a $9.3bn surplus, with a focus on addressing inflation and cost of living pressures. Significant investments have been made to propel Australia towards becoming a renewable energy superpower, while the rest of business has largely been ignored."
+    "text": "Critical minerals and products essential to the transition to net-zero emissions received a big funding boost. Under its Future Made in Australia plan, the government will direct billions into helping key industries boost local manufacturing and investment, through major loans, investments and incentives. This includes $19.7 billion towards the goal of turning Australia into a renewable energy superpower."
    },
    {
     "type": "p",
-    "text": "Our full summary can be found here."
+    "text": "$3.2 billion will be spent over the next decade to accelerate investment in renewable hydrogen, and in solar and battery supply chains. This includes a new innovation fund to support the commercialisation and rollout of renewable technologies, including green metals, low-carbon liquid fuels and battery manufacturing. Battery and solar panel makers are the big beneficiaries, through the $523 million Battery Breakthrough Initiative and the Solar Sunshot program."
    },
    {
     "type": "p",
-    "text": "Green Manufacturing"
+    "text": "$8 billion will be invested over the next decade to support renewable hydrogen production, including a Hydrogen Production Tax Incentive of $2 per kilogram of renewable hydrogen produced from 2027."
+   },
+   {
+    "type": "h",
+    "text": "Business and jobs"
    },
    {
     "type": "p",
-    "text": "Critical minerals and products essential to transitioning to net-zero emissions have received a big funding boost in this budget. The government will funnel billions of dollars into helping key industries boost local manufacturing and bolster investment under its “Future Made in Australia Plan”. The green transition plan will include major loans, investments, and incentives. This includes $19.7 billion to chase the ambitious goal of turning Australia into a renewable energy superpower."
+    "text": "The $20,000 instant asset write-off, due to end on 30 June this year, will be extended for another 12 months. One million eligible small businesses will also benefit from a $325 energy rebate."
    },
    {
     "type": "p",
-    "text": "$3.2 billion will be spent over the next decade to accelerate investment in renewable hydrogen and solar and battery supply chains. This includes a new innovation fund to support the commercialisation and rollout of new renewable technologies, including green metals, low-carbon liquid fuels and battery manufacturing. Battery and solar panel makers are the big beneficiaries via the $523 million Battery Breakthrough Initiative and the $835 Solar Sunshot program."
+    "text": "The government will also invest $777.4 million to establish the Remote Jobs and Economic Development Program, creating 3,000 jobs in remote Australia and helping income support recipients move into paid work."
    },
    {
-    "type": "p",
-    "text": "$8 billion will be invested over the next decade to support renewable hydrogen production, including a Hydrogen Production Tax incentive, which will provide a $2 incentive per kilogram of renewable hydrogen produced from 2027."
-   },
-   {
-    "type": "p",
-    "text": "Business and Jobs"
-   },
-   {
-    "type": "p",
-    "text": "The $20,000 instant asset write-off, which had been slated to end on June 30 this year, will be extended for another 12 months. One million eligible small businesses will also benefit from a $325 energy rebate."
-   },
-   {
-    "type": "p",
-    "text": "The Government will also invest $777.4 million to establish the Remote Jobs and Economic Development Program, which will create 3,000 jobs in remote Australia and support income support recipients move into paid employment."
-   },
-   {
-    "type": "p",
+    "type": "h",
     "text": "Defence"
    },
    {
     "type": "p",
-    "text": "The Government will provide $166.2 million to support the implementation of the Defence Industry Development Strategy."
+    "text": "The government will provide $166.2 million to support the Defence Industry Development Strategy. This includes a new Defence Industry Development Grant program, helping Australian businesses increase their scale and competitiveness and respond to Defence capability requirements."
    },
    {
-    "type": "p",
-    "text": "This includes the establishment of the Defence Industry Development Grant program for Australian defence industry, supporting Australian businesses to increase their scale and competitiveness and respond to Defence’s capability requirements."
-   },
-   {
-    "type": "p",
+    "type": "h",
     "text": "Innovation"
    },
    {
     "type": "p",
-    "text": "The Government will invest $46.9 million to support the development of industries in Australia and maintain the affordability of nuclear medicines for Australians. This includes $25.9 million to the Australian Nuclear Science and Technology Organisation to continue production of affordable nuclear medicines and $18.0 million to continue to build the capability of the National Reconstruction Fund Corporation to undertake investments and deliver on its policy outcomes. This builds on the 2023–24 National Reconstruction Fund Corporation establishment."
+    "text": "The government will invest $46.9 million to support the development of industries in Australia and keep nuclear medicines affordable. This includes $25.9 million for the Australian Nuclear Science and Technology Organisation to continue producing affordable nuclear medicines, and $18.0 million to keep building the capability of the National Reconstruction Fund Corporation, building on its 2023–24 establishment."
    },
    {
     "type": "p",
-    "text": "The Government will also provide $1.7 billion funding over ten years for investments in innovation, science and digital capabilities to support a Future Made in Australia."
+    "text": "The government will also provide $1.7 billion over ten years for investments in innovation, science and digital capabilities to support a Future Made in Australia. This spans multiple projects, including:"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "funding for Geoscience Australia to map the nation's groundwater systems and resource endowments, to identify potential discoveries of critical minerals and strategic materials",
+     "equity and loans from Export Finance Australia to PsiQuantum Pty Ltd to support the construction and operation of quantum computing capabilities",
+     "a new fund for Australia's partnership with the United States on the next generation of the Landsat satellite earth observation program (Landsat Next)."
+    ]
    },
    {
     "type": "p",
-    "text": "Funding is spread across multiple projects including funding for Geoscience Australia to map Australia’s national groundwater systems and resource endowments to identify potential discoveries of all current critical minerals and strategic materials, equity and loans provided by Export Finance Australia to PsiQuantum Pty Ltd to support the construction and operation of quantum computing capabilities, and a new fund to establish Australia’s partnership with the United States on the next generation of the Landsat satellite earth observation program (Landsat Next)."
+    "text": "Concerningly, the cost of this measure is being met from savings within the Department of Industry, Science and Resources, highlighting the government's failure to boost investment in innovation."
+   },
+   {
+    "type": "h",
+    "text": "It's a wrap"
    },
    {
     "type": "p",
-    "text": "Concerningly, the cost of this measure is being met from savings identified in the Department of Industry, Science and Resources, highlighting the government’s failure to boost investment in innovation."
+    "text": "The 2024-25 Budget tackles inflation and cost-of-living pressures, but is largely disappointing for business. Green manufacturing, particularly critical minerals and net-zero products, receives substantial funding, and the extended $20,000 instant asset write-off is helpful. However, innovation funding is being met from savings rather than new investment. The Budget prioritises cost of living over new programs for business growth and innovation, except for the green bonanza."
    },
    {
     "type": "p",
-    "text": "It’s a Wrap"
-   },
-   {
-    "type": "p",
-    "text": "In conclusion, Treasurer Jim Chalmers’ 2024-25 budget, while addressing inflation and cost of living pressures with a $9.3 billion surplus, is largely disappointing for the business sector. While significant investments have been made to propel Australia towards becoming a renewable energy superpower, the rest of the business sector has largely been overlooked. The budget includes substantial funding for green manufacturing, particularly in critical minerals and products essential for transitioning to net-zero emissions. The extension of the $20,000 instant asset write-off and other measures aim to support businesses and jobs are helpful. However, concerns arise regarding the government’s approach to innovation funding, as the cost of these measures is being met from savings rather than boosting investment in innovation. This budget underscores a prioritisation of addressing the cost of living over new programs for business growth and innovation. Except for the green bonanza."
-   },
-   {
-    "type": "p",
-    "text": "Budget papers can be found here."
-   },
-   {
-    "type": "p",
-    "text": "budgetFederal Government2024-25"
+    "text": "The full budget papers are available on the [Federal budget website](https://budget.gov.au)."
    }
   ]
  },
@@ -1105,57 +1064,53 @@
   "title": "New Transparency Requirements: ATO to Publish Company Details of R&D Incentive Claimants",
   "date": "14 November 2023",
   "tag": "R&D Tax Incentive",
-  "excerpt": "In an effort to enhance transparency within the business community, in 2020 several new measures were introduced into the legislation that governs the R&D Tax Incentive.",
-  "readTime": "2 min read",
+  "excerpt": "Since 2020, legislation has required the ATO to publish details of companies that claim the R&D Tax Incentive. Here is what will be published, and when.",
+  "readTime": "1 min read",
   "image": "/assets/img/blog/new-transparency-requirements-ato-to-publish-company-details-of-rd-incentive-claimants.jpeg",
   "blocks": [
    {
     "type": "p",
-    "text": "In an effort to enhance transparency within the business community, in 2020 several new measures were introduced into the legislation that governs the R&D Tax Incentive. This included a new requirement for the ATO to publish certain details about companies who have claimed the R&D tax incentive as well as details about their claims. This initiative aims to improve public accountability for R&D claimants and to encourage voluntary compliance with the R&D program."
+    "text": "To improve transparency within the business community, several new measures were introduced in 2020 into the legislation that governs the R&D Tax Incentive. These include a requirement for the ATO to publish certain details about companies that have claimed the R&D Tax Incentive, and about their claims. The aim is to improve public accountability and encourage voluntary compliance with the program."
    },
    {
-    "type": "p",
-    "text": "The information published will include:"
+    "type": "h",
+    "text": "What will be published"
    },
    {
     "type": "ul",
     "items": [
-     "Name of the entity claiming the R&D tax incentive",
-     "Australian business number (ABN) or Australian company number (ACN)",
-     "The entity’s total expenditure on R&D, less any feedstock adjustments"
+     "the name of the entity claiming the R&D Tax Incentive",
+     "its Australian Business Number (ABN) or Australian Company Number (ACN)",
+     "the entity's total R&D expenditure, less any feedstock adjustments."
     ]
    },
    {
-    "type": "p",
-    "text": "Two Years Ago: Looking Back"
+    "type": "h",
+    "text": "Publication from September 2024"
    },
    {
     "type": "p",
-    "text": "Whilst the ATO will not start publishing details until September 2024, they have been contacting claimants, and their tax agents, confirming this requirement."
+    "text": "The ATO will not start publishing details until September 2024, but it has already been contacting claimants and their tax agents to confirm the requirement."
    },
    {
     "type": "p",
-    "text": "This time gap allows companies to ensure that the information being shared is accurate and up to date while preventing any immediate impact on their competitive advantage. It is a measured approach that respects the need for businesses to protect sensitive data and maintain their strategic positions."
+    "text": "This lead time lets companies check that the information being shared is accurate and up to date, without any immediate impact on their competitive advantage. It is a measured approach that respects the need for businesses to protect sensitive data and their strategic positions."
+   },
+   {
+    "type": "h",
+    "text": "No additional burden on companies"
    },
    {
     "type": "p",
-    "text": "No Additional Burden on Companies"
+    "text": "These transparency requirements do not impose any additional obligations on companies. The ATO recognises that businesses have many concerns and responsibilities to balance, and the measure is designed to provide transparency without adding unnecessary red tape."
    },
    {
     "type": "p",
-    "text": "It is important to note that these transparency requirements will not impose any additional obligations on the companies. The ATO recognises that businesses have various concerns and responsibilities to balance, and the program is designed to provide transparency without adding unnecessary red tape."
+    "text": "While this is new for the R&D Tax Incentive, publishing information about the recipients of government incentives is not. The Federal Government has for many years published details of grant recipients across hundreds of programs, including the recipient, the amount received and a description of the project."
    },
    {
     "type": "p",
-    "text": "Whilst this is a new measure for R&D Tax, publishing information about the recipients of government incentives is not new. The Federal government has for many years published information about grant recipients for 100s of programs, including details about the recipient, the amount of grant received and a description of the project."
-   },
-   {
-    "type": "p",
-    "text": "GrantReady supports the governments approach to transparency and recognises its role in building trust and confidence. We will work with our clients to address any concerns they may have as the September 2024 publication date draws closer."
-   },
-   {
-    "type": "p",
-    "text": "R&DTransparencyATOSupport"
+    "text": "GrantReady supports the government's approach to transparency and recognises its role in building trust and confidence. We will work with our clients to address any concerns as the September 2024 publication date approaches."
    }
   ]
  },
@@ -1164,165 +1119,161 @@
   "title": "Australia's Innovation at a Crossroads",
   "date": "10 November 2023",
   "tag": "Business",
-  "excerpt": "In the dynamic realm of business, innovation has long been the engine driving progress. It is also a reflection of Australia’s vision and commitment to the future.",
-  "readTime": "3 min read",
+  "excerpt": "Australia's R&D spending has fallen to a 17-year low of 1.68% of GDP, well below the OECD average. What does that mean for the nation's innovation future?",
+  "readTime": "2 min read",
   "image": "/assets/img/blog/innovation-investment-in-form-of-rd-down.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "In the dynamic realm of business, innovation has long been the engine driving progress. It is also a reflection of Australia’s vision and commitment to the future. However, recent statistics paint a concerning picture of Research and Development (R&D) expenditure in Australia, suggesting that the tide of innovation may be receding. While business expenditure on research and development (BERD) saw a commendable 14% surge in 2021-22, the overall scenario shows diminishing investment."
+    "text": "Innovation has long been the engine of business progress, and a reflection of Australia's vision for the future. However, recent statistics paint a concerning picture of research and development (R&D) spending in Australia, suggesting the tide of innovation may be receding. While business expenditure on R&D (BERD) rose a commendable 14% in 2021-22, overall investment is falling."
+   },
+   {
+    "type": "h",
+    "text": "A 17-year low"
    },
    {
     "type": "p",
-    "text": "17 Year Low"
+    "text": "In August, the Australian Bureau of Statistics revealed that national R&D spending had fallen to 1.68% of GDP in 2021-22: a 17-year low, and down 0.12 percentage points from 2019-20. With R&D spending taking a hit, it's worth looking closely at the numbers and what they mean for Australia's innovation landscape."
+   },
+   {
+    "type": "h",
+    "text": "Business is still committed to innovation"
    },
    {
     "type": "p",
-    "text": "The Australian Bureau of Statistics made waves in August when it revealed that national spending on R&D had ebbed to 1.68% of GDP in 2021-22, marking a disheartening 17-year low and a 0.12% decrease from 2019-20. With R&D spend taking a hit, it’s crucial to dissect the numbers and understand the implications for Australia’s innovation landscape."
+    "text": "Of the $38.75 billion spent in 2021-22, businesses contributed $20.6 billion (53%), reflecting their commitment to innovation. The higher education sector contributed $13 billion (34%), with the remainder from government and private not-for-profit organisations. While business R&D spending grew 14% in dollar terms from 2019-20, government spending on R&D hit an all-time low of just 0.49% of GDP in 2022-23."
    },
    {
     "type": "p",
-    "text": "Business Committed to Driving Innovation"
+    "text": "Looking back over a decade and more, the picture is stark: Australia's R&D expenditure has fallen from a high of 2.4% of GDP in 2008 to 1.68% in 2022."
+   },
+   {
+    "type": "h",
+    "text": "Below the OECD average"
    },
    {
     "type": "p",
-    "text": "Of the substantial $38.75 billion spent in 2021-22, businesses contributed $20.6 billion (53%), reflecting their commitment to driving innovation. The higher education sector played a pivotal role, allocating $13 billion (34%) to R&D efforts, leaving the remainder attributed to government and private not-for-profit organizations. While business R&D spending experienced a commendable 14% increase in dollar terms from 2019-20, government spending on R&D hit an all-time low, accounting for a mere 0.49% of GDP in 2022-23."
+    "text": "The 1.68% figure is the share of the economy invested in new ideas, breakthrough technologies and the future. A 0.12-point fall from 2019-20 may seem small, but at a 17-year low it sends a clear message about the challenges Australia faces in R&D. It is well below the OECD average of 2.71%, and far behind global leaders such as South Korea at 4.93%."
+   },
+   {
+    "type": "h",
+    "text": "Does such a small percentage matter?"
    },
    {
     "type": "p",
-    "text": "A decade-long retrospective reveals a stark reality: expenditure on R&D in Australia has crumbled from a historical high of 2.4% in 2008 to a meagre 1.68% in 2022."
+    "text": "Strong R&D investment fuels innovation, improves competitiveness and secures a nation's place in a fast-changing global market. As Australia's R&D investment shrinks, there are concerns about its ability to keep pace with other countries. At the 2022 Federal election, Labor pledged to lift R&D expenditure to 3% of GDP by 2030. It's a bold vision, but the current trajectory tells a different story: if spending keeps falling by 0.1% of GDP a year, Australia risks slipping into the lower ranks of OECD countries within five years."
    },
    {
-    "type": "p",
-    "text": "Below OECD Figures"
-   },
-   {
-    "type": "p",
-    "text": "A figure of 1.68% signifies the proportion of the economic pie allocated to fostering new ideas, groundbreaking technologies, and the future. While a 0.12% decrease from 2019-20 may seem incremental, in the context of a 17-year low, it sends a resounding message about the challenges and opportunities Australia faces in the realm of R&D. This statistic is not only well below the OECD average of 2.71% but also pales in comparison to global frontrunners like South Korea, boasting an impressive 4.93% R&D-to-GDP ratio."
-   },
-   {
-    "type": "p",
-    "text": "Such Small %, Does it Matter?"
-   },
-   {
-    "type": "p",
-    "text": "The significance of robust R&D investment cannot be overstated. It fuels innovation, enhances competitiveness, and secures a nation’s foothold in the ever-evolving global marketplace. As Australia grapples with a diminishing R&D landscape, there are concerns about its ability to keep pace with global counterparts. The 2022 Federal election saw the Labor party pledge a promising commitment: to elevate expenditure to 3% by 2030. A bold vision, yet the current trajectory tells a different story. If the downward trend persists at a rate of 0.1% GDP per year, Australia risks slipping into the lower echelons of the OECD countries’ R&D expenditure within five years."
-   },
-   {
-    "type": "p",
-    "text": "Global Standing at Risk"
+    "type": "h",
+    "text": "Global standing at risk"
    },
    {
     "type": "p",
     "text": "The consequences of this downward trend are far-reaching. Industries that rely on innovation to stay competitive may face headwinds, potentially compromising Australia’s global standing in technology, healthcare, and other critical sectors. A decline in R&D spend not only impacts economic growth but also jeopardises the nation’s ability to tackle complex challenges through groundbreaking solutions."
    },
    {
-    "type": "p",
-    "text": "Time to Stem the Tide"
+    "type": "h",
+    "text": "Time to stem the tide"
    },
    {
     "type": "p",
-    "text": "In conclusion, the declining trend in R&D expenditure should serve as a wake-up call for policymakers, businesses, and the broader Australian community. While business commitment to R&D remains commendable, a collaborative effort involving government, academia, and private sectors is imperative to reverse the current trajectory. Innovation is the lifeblood of progress, and it’s time for Australia to stem the tide, reinvigorate its R&D ecosystem, and chart a course toward a future defined by cutting-edge solutions and sustained growth."
+    "text": "The decline in R&D expenditure should be a wake-up call for policymakers, businesses and the broader Australian community. Business commitment to R&D remains commendable, but a collaborative effort across government, academia and the private sector is needed to reverse the trend. Innovation is the lifeblood of progress, and it's time for Australia to reinvigorate its R&D ecosystem and chart a course towards sustained growth."
    }
   ]
  },
  {
   "slug": "made-in-victoria-boosts-upwards-with15-million-announced",
-  "title": "Made in Victoria Boosts Upwards with $15M Announced",
+  "title": "Made in Victoria: $15M Industry R&D Infrastructure Fund Opens",
   "date": "7 July 2023",
   "tag": "Grants",
-  "excerpt": "The Victorian Government has just announced a $15 million Industry R&D Infrastructure Fund. The Made In Victoria branded fund is now open and ready for EOIs from Victorian businesses.",
+  "excerpt": "The Victorian Government has announced a $15 million Industry R&D Infrastructure Fund. The Made in Victoria fund is now open for expressions of interest (EOIs) from Victorian businesses.",
   "readTime": "2 min read",
   "image": "/assets/img/blog/made-in-victoria-boosts-upwards-with15-million-announced.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "The Victorian Government has just announced a $15 million Industry R&D Infrastructure Fund. The Made In Victoria branded fund is now open and ready for EOIs from Victorian businesses."
+    "text": "The Victorian Government has announced a $15 million Industry R&D Infrastructure Fund. The Made in Victoria fund is now open for expressions of interest (EOIs) from Victorian businesses."
+   },
+   {
+    "type": "h",
+    "text": "A welcome boost"
    },
    {
     "type": "p",
-    "text": "Welcome boost"
+    "text": "After a period with few large capital grants, this is a welcome boost that Victorian businesses will celebrate."
    },
    {
     "type": "p",
-    "text": "The lack of large capital grants recently means this is a welcome boost and will be celebrated by Victorian businesses."
-   },
-   {
-    "type": "p",
-    "text": "The $15 million program aims to incentivise Victorian companies to make new investment in research and development. Propelling long term growth and innovation for the State. With a matched funding model offering up to $2 million for projects, it’s designed to support a number of areas including:"
+    "text": "The program aims to encourage Victorian companies to make new investments in research and development, driving long-term growth and innovation for the State. With matched funding of up to $2 million per project, it supports areas including:"
    },
    {
     "type": "ul",
     "items": [
-     "New energy technologies, such as wind, hydrogen, solar and batteries",
-     "Health technologies, including medtech, biotech, pharma and consumer healthcare",
-     "Food manufacturing and agriculture",
-     "Defence, aerospace and space",
-     "Digital and advanced technologies, including advanced materials, robotics, AI (Artificial Intelligence), 3D-printing, and quantum technologies"
+     "new energy technologies, such as wind, hydrogen, solar and batteries",
+     "health technologies, including medtech, biotech, pharma and consumer healthcare",
+     "food manufacturing and agriculture",
+     "defence, aerospace and space",
+     "digital and advanced technologies, including advanced materials, robotics, artificial intelligence (AI), 3D printing and quantum technologies."
     ]
    },
    {
-    "type": "p",
-    "text": "From $250,000 to $2 million available"
+    "type": "h",
+    "text": "$250,000 to $2 million available"
    },
    {
     "type": "p",
-    "text": "Between $250,000 and $2 million (excluding GST) is available to support eligible projects on a 1:1 matched funding basis. This means that up to 50% of eligible project expenditure for businesses could be funded."
+    "text": "Grants of $250,000 to $2 million (excluding GST) are available for eligible projects on a 1:1 matched funding basis, so up to 50% of eligible project expenditure could be funded."
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "What is funded?"
    },
    {
     "type": "p",
-    "text": "If your business is considering any of the following activities, this fund could be the answer:"
+    "text": "If your business is planning any of the following, this fund could be the answer:"
    },
    {
     "type": "ul",
     "items": [
-     "Establishing a new or expanded R&D infrastructure within the business to deliver process improvements, prototyping, evaluation and testing of you products and processes.",
-     "Purchase and commissioning of capital equipment (recorded as fixed assets in the applicant’s accounting and tax asset registers)."
+     "establishing new or expanded R&D infrastructure to deliver process improvements, prototyping, and evaluation and testing of your products and processes",
+     "purchasing and commissioning capital equipment (recorded as fixed assets in the applicant's accounting and tax asset registers)."
     ]
    },
    {
-    "type": "p",
-    "text": "Federal R&D Tax Incentive Scheme"
+    "type": "h",
+    "text": "How it fits with the R&D Tax Incentive"
    },
    {
     "type": "p",
-    "text": "This program is intended to complement the Federal government’s R&D Tax Incentive scheme and aims to incentivise Victorian companies to make new investments in R&D infrastructure in key industry sectors."
+    "text": "The program is designed to complement the Federal Government's R&D Tax Incentive, encouraging Victorian companies to invest in R&D infrastructure in key industry sectors."
+   },
+   {
+    "type": "h",
+    "text": "Eligibility"
    },
    {
     "type": "p",
-    "text": "Eligiblity"
+    "text": "To be eligible, a business must operate in Victoria and either employ at least 20 full-time equivalent staff or have an annual turnover between $1.5 million and $100 million."
    },
    {
-    "type": "p",
-    "text": "To be eligible for funding, companies will need to be a business operating in Victoria and employ at least 20 full-time equivalent staff OR have an annual turnover between $1.5 to $100 million. See program details for more information."
-   },
-   {
-    "type": "p",
+    "type": "h",
     "text": "Closing date"
    },
    {
     "type": "p",
-    "text": "Expressions of interest close on 18 August 2023, with successful EOIs invited to complete a full application in September."
+    "text": "Expressions of interest close on **18 August 2023**, with successful applicants invited to submit a full application in September."
    },
    {
-    "type": "p",
+    "type": "h",
     "text": "Boosting business"
    },
    {
     "type": "p",
-    "text": "First announced in the 2022-23 Victorian budget as part of the Victorian Jobs and Investment Fund (VJIF) it’s good to see this program now open for EOI. Victorian businesses are needing support for investment and innovation to keep the business sector thriving."
+    "text": "First announced in the 2022-23 Victorian Budget as part of the Victorian Jobs and Investment Fund (VJIF), it's good to see this program now open. Victorian businesses need support for investment and innovation to keep the sector thriving."
    },
    {
     "type": "p",
-    "text": "Get the details"
-   },
-   {
-    "type": "p",
-    "text": "Find out more."
+    "text": "Considering an application? [Book a free consultation call](#book-lina) and we can help you assess your project."
    }
   ]
  },
@@ -1331,42 +1282,42 @@
   "title": "My R&D Tax Consultant Has Lots of Audit Experience. Should I Be Concerned?",
   "date": "1 July 2019",
   "tag": "R&D Tax Incentive",
-  "excerpt": "This is an alarm bell. Great tax consultants should not have their work regularly audited.",
-  "readTime": "3 min read",
+  "excerpt": "If your R&D consultant's work is regularly audited, that's an alarm bell. Here's why, and five tips to stay on the right side of the ATO and AusIndustry.",
+  "readTime": "2 min read",
   "image": "/assets/img/blog/my-rd-tax-consultant-has-lots-of-audit-experience-should-i-be-concerned.jpg",
   "blocks": [
    {
     "type": "p",
-    "text": "This is an alarm bell. Great tax consultants should not have their work regularly audited."
+    "text": "This is an alarm bell. Great tax consultants shouldn't have their work regularly audited."
    },
    {
     "type": "p",
-    "text": "Of course, you need a consultant that knows how to handle this situation because from time-to-time it does happen. And that’s ok, because the government is tasked by tax payers to be responsible for money it grants to business."
+    "text": "Of course, you need a consultant who knows how to handle an audit, because from time to time it does happen. And that's fine: the government is accountable to taxpayers for the money it gives to business."
    },
    {
     "type": "p",
-    "text": "What you might not know, is that the ATO and AusIndustry target consultants they are concerned with. In recent years, there has been a clamp down on overly aggressive claims, inexperienced and incorrect claims. You may have heard about this in the media and you might be afraid of what it means for you."
+    "text": "What you might not know is that the ATO and AusIndustry target consultants they are concerned about. In recent years there has been a crackdown on overly aggressive, inexperienced and incorrect claims. You may have heard about this in the media, and wondered what it means for you."
    },
    {
     "type": "p",
-    "text": "We asked both the ATO and AusIndustry. They told us they will not exceed the guidelines, they are just enforcing them to make sure they only support eligible applicants. Which is good news, unless you are doing the wrong thing."
+    "text": "We asked both the ATO and AusIndustry. They told us they will not go beyond the guidelines; they are simply enforcing them to make sure they only support eligible applicants. That's good news, unless you are doing the wrong thing."
    },
    {
     "type": "p",
-    "text": "So where does that leave you with your R&D Consultant? Can you trust them?"
+    "text": "So where does that leave you with your R&D consultant? Can you trust them?"
    },
    {
-    "type": "p",
-    "text": "Here are our 5 tips to stay on the good side of Government:"
+    "type": "h",
+    "text": "Five tips to stay on the right side of government"
    },
    {
     "type": "ul",
     "items": [
-     "Don’t be dodgy. Only claim what you are entitled to and do not exceed the legislation.",
-     "Finding out it an audit that you don’t have the right information or back-up documentation is a recipe for disaster. Do the job right the first time. It might take more time and effort, but you get peace of mind.",
-     "Be experienced with the legislation, guidelines, case law and history. You cannot navigate the maze if you can’t read a compass.",
-     "If in doubt, ask. The government is not the enemy. We work closely with AusIndustry and the ATO. If we have concerns or questions we raise it with them early. They are more than happy to help and they really do want you to succeed.",
-     "If you are not sure if your consultant is safe, get a second opinion. We regularly do health checks for companies. We don’t charge and it only takes one hour. Some companies are fine while others need help. We want you to do well in your business and to focus on what matters most to you, so we will always give you an honest opinion to you can put your best foot forward."
+     "**Don't be dodgy.** Only claim what you are entitled to, and stay within the legislation.",
+     "**Get it right the first time.** Finding out during an audit that you don't have the right information or documentation is a recipe for disaster. It might take more time and effort, but you get peace of mind.",
+     "**Know the rules.** Your consultant should be experienced with the legislation, guidelines, case law and history. You can't navigate the maze if you can't read a compass.",
+     "**If in doubt, ask.** The government is not the enemy. We work closely with AusIndustry and the ATO, and raise any concerns or questions with them early. They are happy to help, and they really do want you to succeed.",
+     "**Get a second opinion.** If you're not sure your consultant is safe, ask for a health check. We do these regularly for companies, free of charge, and it only takes an hour. Some companies are fine while others need help, and we'll always give you an honest opinion so you can put your best foot forward."
     ]
    },
    {
@@ -1375,11 +1326,11 @@
    },
    {
     "type": "p",
-    "text": "GrantReady is a well-established team with a long history of successfully assisting companies access the R&D Tax Incentive."
+    "text": "GrantReady is a well-established team with a long history of helping companies access the R&D Tax Incentive."
    },
    {
     "type": "p",
-    "text": "Complete the form we’ll give you a free eligibility assessment or call us on 03 9853 9853."
+    "text": "[Book a free consultation call](#book-lina), or call us on 03 9853 9853."
    }
   ]
  }

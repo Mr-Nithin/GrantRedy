@@ -18,9 +18,17 @@ export default function Estimator() {
         <button type="button" aria-pressed={small} onClick={() => setSmall(true)}>Under $20M</button>
         <button type="button" aria-pressed={!small} onClick={() => setSmall(false)}>$20M or more</button>
       </div>
-      <div className="result">
-        <div className="n">{small ? money(spend * 0.435) : `${money(spend * 0.085)}–${money(spend * 0.165)}`}</div>
-        <p>{small ? '43.5% refundable offset' : '8.5–16.5% above tax rate, non-refundable'}</p>
+      {/* Both results share one grid cell (only the selected one is visible), so the card
+          always reserves the taller one's height and the hero never shifts when switching */}
+      <div className="result est-result">
+        <div className={small ? 'est on' : 'est'} aria-hidden={!small}>
+          <div className="n">{money(spend * 0.435)}</div>
+          <p>43.5% refundable offset</p>
+        </div>
+        <div className={small ? 'est' : 'est on'} aria-hidden={small}>
+          <div className="n range">{money(spend * 0.085)}–{money(spend * 0.165)}</div>
+          <p>8.5–16.5% above tax rate, non-refundable</p>
+        </div>
       </div>
     </div>
   )

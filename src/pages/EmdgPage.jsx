@@ -28,7 +28,7 @@ export default function EmdgPage() {
   <div className="eyebrow">Export Market Development Grant</div>
   <h1>Recover up to 50% of your overseas marketing expenditure.</h1>
   <p className="lede">The Export Market Development Grant (EMDG) is an Australian Government program administered by Austrade that reimburses up to 50% of eligible export promotional expenditure for businesses with annual income under $20M.</p>
-  <div className="ctas"><Link className="btn" to="/contact">Get EMDG assessment →</Link><Link className="btn ghost" to="/services">View all services</Link></div>
+  <div className="ctas"><Link className="btn" to="/contact">Get EMDG assessment<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/services">View all services</Link></div>
 </div>
 <div className="hero-aside"><CaseVisual tone="teal" icon="✈️" name={'Export Market Development Grant'} sector={'Administered by Austrade'} stats={[{ value: '50%', label: 'of eligible spend reimbursed' }, { value: '<$20M', label: 'maximum income to qualify' }]} chip={'$20K minimum spend · Tiers 1–3'} /></div>
 </header><section>
@@ -49,7 +49,6 @@ export default function EmdgPage() {
     </div>
     <div className="elig-cta">
       <p><strong>All five apply?</strong> You're likely eligible. We'll confirm it and estimate your grant, free.</p>
-      <Link className="btn" to="/contact">Book free EMDG assessment →</Link>
     </div>
   </div>
   <div className="tile emdg-example">
@@ -67,7 +66,7 @@ export default function EmdgPage() {
     <div className="grant-result"><span>EMDG grant (50%)</span><b>{money(SPEND_TOTAL / 2)}</b></div>
   </div>
 </div>
-</section><div className="final"><div><h2>Find out if your export spend qualifies.</h2><p>Book a free EMDG eligibility assessment. We review your export marketing spend and tell you exactly what is recoverable.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free EMDG assessment →</Link></div></div>
+</section><div className="final"><div><h2>Find out if your export spend qualifies.</h2><p>Book a free EMDG eligibility assessment. We review your export marketing spend and tell you exactly what is recoverable.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free EMDG assessment<span className="arr" aria-hidden="true" /></Link></div></div>
 
     </>
   )

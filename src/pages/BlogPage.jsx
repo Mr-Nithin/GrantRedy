@@ -19,13 +19,13 @@ export default function BlogPage() {
           <h1>R&amp;D Tax Incentive insights from the specialists.</h1>
           <p className="lede">Practical guidance on R&amp;D Tax Incentive eligibility, documentation, and claims management from Australia's specialist consultancy.</p>
         </div>
-        <div className="hero-aside">
+        <div className="hero-aside optional">
           <Link className="latest" to={`/blog/${latest.slug}`}>
             <img src={latest.image} alt="" />
             <div>
               <span className="pill">Latest · {latest.date}</span>
               <h3>{latest.title}</h3>
-              <span className="read">Read article →</span>
+              <span className="read">Read article<span className="arr" aria-hidden="true" /></span>
             </div>
           </Link>
         </div>
@@ -44,15 +44,15 @@ export default function BlogPage() {
                 <div className="post-meta"><span className="pill">{p.tag}</span><time>{p.date}</time></div>
                 <h3><Link to={`/blog/${p.slug}`}>{p.title}</Link></h3>
                 <p>{p.excerpt}</p>
-                <span className="small">{p.readTime} · <span className="read">Read article →</span></span>
+                <span className="small">{p.readTime} · <span className="read">Read article<span className="arr" aria-hidden="true" /></span></span>
               </div>
             </article>
           ))}
         </div>
       </section>
       <div className="final">
-        <div><h2>Ready to check your eligibility?</h2><p>Skip the reading and talk to a specialist. Free 30-minute eligibility assessment with no obligation.</p></div>
-        <div className="ctas"><Link className="btn" to="/eligibility-quiz">Take the quiz →</Link><Link className="btn ghost" to="/contact">Book a call</Link></div>
+        <div><h2>Ready to check your eligibility?</h2><p>Skip the reading and talk to a specialist. Free, no-obligation eligibility call.</p></div>
+        <div className="ctas"><Link className="btn" to="/eligibility-quiz">Take the quiz<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/contact">Book a call</Link></div>
       </div>
     </>
   )

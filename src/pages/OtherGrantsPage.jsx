@@ -21,7 +21,7 @@ export default function OtherGrantsPage() {
   <div className="split"><div>
 <p>GrantGuru is a dedicated grant discovery service (a sister company to GrantReady) built to solve one problem: making sure Australian businesses never miss a grant they're entitled to.</p>
 <p>With 3,098 grants worth $106 billion tracked across federal and state governments, it's impossible to manually track what's open, what's relevant, and what's closing next week. GrantGuru does that automatically, and surfaces only the opportunities that match your specific business.</p>
-<a className="btn" href="https://grantguru.com/au">Visit GrantGuru →</a></div>
+<a className="btn" href="https://grantguru.com/au">Visit GrantGuru<span className="arr" aria-hidden="true" /></a></div>
 <div className="tile"><div className="eyebrow">GrantGuru</div><div className="ledger"><div className="lrow"><span>Grants tracked</span><b>3,098</b></div><div className="lrow"><span>Combined value tracked</span><b>$106B</b></div><div className="lrow"><span>Matched to your profile</span><b>Automatically</b></div></div></div></div>
 </section><section>
   <div className="eyebrow">What you get</div>
@@ -70,7 +70,7 @@ export default function OtherGrantsPage() {
     </div>
   </li>
 </ol>
-</section><div className="final"><div><h2>Don't let another grant close without knowing about it.</h2><p>Engage GrantReady and get R&amp;D tax, EMDG, and GrantGuru access: everything your business needs to capture every dollar it's entitled to.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free assessment →</Link><a className="btn ghost" href="https://grantguru.com/au">Visit GrantGuru →</a></div></div>
+</section><div className="final"><div><h2>Don't let another grant close without knowing about it.</h2><p>Engage GrantReady and get R&amp;D tax, EMDG, and GrantGuru access: everything your business needs to capture every dollar it's entitled to.</p></div><div className="ctas"><Link className="btn" to="/contact">Book free assessment<span className="arr" aria-hidden="true" /></Link><a className="btn ghost" href="https://grantguru.com/au">Visit GrantGuru<span className="arr" aria-hidden="true" /></a></div></div>
 
     </>
   )
