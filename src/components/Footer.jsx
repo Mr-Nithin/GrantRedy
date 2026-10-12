@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 const columns = [
-  ['Services', [['/rdti', 'R&D Tax Incentive'], ['/emdg', 'EMDG'], ['/other-grants', 'Other Grants'], ['/services', 'Our Services'], ['/case-studies', 'Case Studies']]],
+  ['Services', [['/services', 'All Services'], ['/case-studies', 'Case Studies'], ['/emdg', 'EMDG'], ['/other-grants', 'Other Grants'], ['/rdti', 'R&D Tax Incentive']]],
   ['Who we help', [['/accounting-firms', 'Accounting Firms'], ['/industry-agriculture', 'Agriculture'], ['/industry-biomedical', 'Biomedical'], ['/industry-biotech', 'Biotech'], ['/industries', 'Industries'], ['/industry-it', 'IT & Software'], ['/industry-manufacturing', 'Manufacturing']]],
   ['Company', [['/about', 'About Us'], ['/blog', 'Blog'], ['/contact', 'Contact Us'], ['/team', 'Our Team'], ['/why-us', 'Why GrantReady']],
     ['Free tools', [['/benefit-calculator', 'Benefit Calculator'], ['/eligibility-quiz', 'Eligibility Quiz']]]],
