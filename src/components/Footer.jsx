@@ -40,7 +40,7 @@ export default function Footer() {
       <div className="fbottom">
         <div className="fbottom-inner">
           <div className="fbottom-row">
-            <span>© 2026 GrantReady Pty Ltd · Part of the GrantReady Group, including <a href="https://grantguru.com/au">GrantGuru</a></span>
+            <span>© 2026 GrantReady Pty Ltd</span>
             <div className="fbottom-right">
               <span className="fagent">Registered Tax Agent</span>
               <button type="button" className="ftop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>

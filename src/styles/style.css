@@ -438,7 +438,6 @@ section h2{font-size:clamp(28px,3.4vw,40px);margin-block:8px 12px}
 @media (max-width:560px){.scope-dont ul{grid-template-columns:1fr}.scope-do,.scope-dont{padding:22px}}
 
 .mission{margin-top:24px}
-.mission .tile{border-top:3px solid transparent}
 @media (hover:hover){.mission .tile{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.mission .tile:hover{transform:translateY(-4px);border-color:var(--accent);border-top-color:var(--accent);box-shadow:0 18px 36px -22px rgba(20,53,122,.45)}.mission .tile:hover .icon{transform:scale(1.08) rotate(-4deg)}.mission .icon{transition:transform .2s ease}}
 
 /* Inner-page heroes with a right-hand panel */
