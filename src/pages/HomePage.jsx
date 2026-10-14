@@ -4,7 +4,7 @@ import EnquiryForm from '../components/EnquiryForm'
 import { usePageMeta } from '../hooks/usePageMeta'
 
 export default function HomePage() {
-  usePageMeta("Australia's R&D Tax Incentive Specialists", "GrantReady helps Australian businesses recover R&D Tax Incentive and EMDG funding.")
+  usePageMeta("GrantReady - Australia's R&D Tax Incentive Specialists", "GrantReady helps Australian businesses recover R&D Tax Incentive and EMDG funding.")
   return (
     <>
 

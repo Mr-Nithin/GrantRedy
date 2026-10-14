@@ -31,7 +31,7 @@ const esc = s => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, 
 
 function page(url) {
   const { html, meta } = render(url)
-  const title = meta ? `${meta.title} | GrantReady` : 'GrantReady'
+  const title = meta?.title || 'GrantReady'
   const desc = meta?.description || ''
   let out = template
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`)
