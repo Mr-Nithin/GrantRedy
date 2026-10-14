@@ -18,7 +18,7 @@ const tabs = [
 </div>
 </>
   ) },
-  { id: 'eligible', label: 'Are You Eligible?', content: (
+  { id: 'eligible', label: 'Eligibility', content: (
     <>
 <p className="lede">Before getting swept away with the thought of thousands of dollars cash-back for your business, you need to examine eligibility carefully. There are three tests, and you must satisfy all three. GrantReady can assess all of these at no charge.</p>
 <div className="grid3">
@@ -27,7 +27,7 @@ const tabs = [
 <div className="tile"><span className="num-sm">03</span><h3>Expenditure Eligibility</h3><p>The R&amp;D Tax Incentive is not subject to an expenditure cap, but there are minimums and thresholds.</p><ul className="checks"><li>Minimum $20,000 eligible R&amp;D expenditure per income year</li><li>Eligible costs include: wages, contractor payments, overhead directly attributable to R&amp;D, plant and equipment</li><li>No cap on eligible R&amp;D expenditure up to $150 million</li><li>Above $150M in R&amp;D expenditure, a non-refundable offset rate applies to the excess</li></ul></div>
 </div></>
   ) },
-  { id: 'receive', label: 'How Much Can You Receive?', content: (
+  { id: 'receive', label: 'Your benefit', content: (
     <>
 <div className="grid2">
 <div className="tile"><div className="eyebrow">Companies with turnover &lt;$20M</div><div className="big-num">43.5%</div><p>The refundable R&amp;D tax offset is 18.5 percentage points above the claimant's company tax rate, equating to 43.5%. Once tax liability reaches zero, companies receive a cash refund for any unused offset amount.</p></div>
@@ -42,7 +42,7 @@ const tabs = [
 <div className="tile"><h3>Example 4: Turnover &gt;$50M (R&amp;D Intensity &lt;2%)</h3><div className="ledger"><div className="lrow"><span>Turnover</span><b>&gt;$50 million</b></div><div className="lrow"><span>Taxable position</span><b>Profit or loss</b></div><div className="lrow"><span>Eligible R&amp;D expenditure</span><b>$1 million</b></div><div className="lrow"><span>Total company expenditure</span><b>$100 million</b></div><div className="lrow"><span>R&amp;D intensity</span><b>1%</b></div><div className="lrow"><span>Form of benefit</span><b>Non-refundable offset, excess carried forward</b></div><div className="lrow total"><span>Benefit</span><b>$85,000</b></div></div></div>
 </div></>
   ) },
-  { id: 'apply', label: 'How to Apply', content: (
+  { id: 'apply', label: 'How to apply', content: (
     <>
 <p className="lede">Registration is required for each year of income in which R&amp;D expenditure is incurred. Companies must register annually with AusIndustry before being able to claim the Tax Incentive. GrantReady manages this entire process on your behalf.</p>
 <div className="apply-strip">
@@ -73,7 +73,7 @@ const tabs = [
 </div>
 </>
   ) },
-  { id: 'planning', label: 'Best Practice Planning', content: (
+  { id: 'planning', label: 'Plan ahead', content: (
     <>
 <p className="lede">While GrantReady handles the hard work of preparing and lodging your claim, a strong claim still depends on your company maintaining good record keeping throughout the financial year. The better your records, the stronger and more defensible your claim.</p>
 <p>Applicants must keep adequate records to demonstrate to both AusIndustry and the ATO that:</p>
@@ -84,7 +84,7 @@ const tabs = [
 </div>
 <div className="note-box" style={{marginTop: "28px"}}><h3>Talk to us about your records</h3><p>If you are planning to submit a claim for the current financial year, speak to us about best-practice record keeping relevant to your specific industry and business activities. Getting this right early saves significant work at lodgement time.</p></div></>
   ) },
-  { id: 'resources', label: 'Further Resources', content: (
+  { id: 'resources', label: 'Resources', content: (
     <>
 <p className="lede">The R&amp;D Tax Incentive is a joint program between two government agencies. Both publish detailed guidance that forms the basis of what GrantReady uses when assessing and documenting your claim.</p>
 <div className="grid2">

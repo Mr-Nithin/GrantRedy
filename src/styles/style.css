@@ -801,7 +801,7 @@ a[href^="tel:"]:hover::before,a[href^="tel:"]:focus-visible::before{animation:ri
 80%{transform:rotate(3deg)}
 }
 
-/* "Are You Eligible?" cards: number lights up with the card on hover */
+/* "Eligibility" tab cards: number lights up with the card on hover */
 .num-sm{transform-origin:left bottom}
 @media (hover:hover){
 .num-sm{transition:color .2s ease,transform .2s ease}
