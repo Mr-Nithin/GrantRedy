@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 const STATIC = '/assets/img/logo-static.webp'
-const ANIMATED = '/assets/img/logo.webp'
+const ANIMATED = '/assets/img/logo.gif'
 
 // Shows the light first frame of the logo straight away, then swaps in the
 // (much heavier) animated version once the page has finished loading.
@@ -21,5 +21,5 @@ export default function Logo() {
     }
   }, [])
 
-  return <img src={src} alt="GrantReady" width="389" height="104" />
+  return <img src={src} alt="GrantReady" width="200" height="48" />
 }
