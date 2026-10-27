@@ -84,9 +84,9 @@ export default function HomePage() {
   <h2>R&amp;D happens across every industry.</h2>
   <p className="lede">If your business is solving technical problems with uncertain outcomes, the R&amp;D Tax Incentive almost certainly applies, regardless of your sector.</p>
   <div className="grid3">
-    <Link className="ind" to="/industry-biotech"><div className="icon">🧬</div><h3>Biotech &amp; Life Sciences</h3><p>Drug development, clinical research, novel compounds, genomics, and diagnostics.</p></Link>
-    <Link className="ind" to="/industry-biomedical"><div className="icon">🏥</div><h3>Biomedical &amp; MedTech</h3><p>Medical devices, implants, diagnostics hardware, and biomedical engineering.</p></Link>
     <Link className="ind" to="/industry-agriculture"><div className="icon">🌾</div><h3>Agriculture &amp; AgTech</h3><p>Farm robotics, precision agriculture, crop science, and novel growing methods.</p></Link>
+    <Link className="ind" to="/industry-biomedical"><div className="icon">🏥</div><h3>Biomedical &amp; MedTech</h3><p>Medical devices, implants, diagnostics hardware, and biomedical engineering.</p></Link>
+    <Link className="ind" to="/industry-biotech"><div className="icon">🧬</div><h3>Biotech &amp; Life Sciences</h3><p>Drug development, clinical research, novel compounds, genomics, and diagnostics.</p></Link>
     <Link className="ind" to="/industry-it"><div className="icon">💻</div><h3>IT &amp; Software</h3><p>Novel platforms, algorithms, embedded systems, and technical development beyond standard practice.</p></Link>
     <Link className="ind" to="/industry-manufacturing"><div className="icon">🏭</div><h3>Manufacturing</h3><p>New materials, process innovation, production automation, and novel manufacturing methods.</p></Link>
     <Link className="ind" to="/industries"><div className="icon">⚗️</div><h3>Other Industries</h3><p>R&amp;D applies across every sector. If your business is solving technical problems with uncertain outcomes, you're likely eligible.</p></Link>
