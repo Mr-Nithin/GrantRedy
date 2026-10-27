@@ -17,7 +17,7 @@ export default function HomePage() {
     <div className="ctas"><Link className="btn" to="/eligibility-quiz">Check if you qualify<span className="arr" aria-hidden="true" /></Link><Link className="btn ghost" to="/benefit-calculator">Calculate your benefit<span className="arr" aria-hidden="true" /></Link></div>
     <div className="team">
       <div className="avatars"><img src="/assets/img/t1.webp" alt="" width="96" height="96" /><img src="/assets/img/t2.webp" alt="" width="96" height="96" /><img src="/assets/img/t3.webp" alt="" width="96" height="96" /><img src="/assets/img/t4.webp" alt="" width="96" height="96" /><img src="/assets/img/t5.webp" alt="" width="96" height="96" /></div>
-      <p><b>Talk to an R&amp;D specialist now.</b><br />Free assessment call. No obligation.</p>
+      <p><b>Talk to an <span className="gold">R&amp;D specialist</span> now.</b><br />Free assessment call. No obligation.</p>
     </div>
   </div>
   <div className="visual">
